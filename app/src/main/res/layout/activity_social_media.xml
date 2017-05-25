@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_social_media"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:gradient="http://schemas.android.com/apk/res-auto"
+    tools:context="creativedays.com.dilzas.SocialMediaActivity">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/ken"
+        android:src="@drawable/aegean"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:background="#a9ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:background="@color/white_trans"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/back"
+                android:id="@+id/back"
+                android:layout_width="45dp"
+                android:layout_height="match_parent" />
+
+
+
+
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white_trans"
+                android:layout_gravity="center"
+                android:typeface="sans"
+                android:padding="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/menu_text"
+                android:text="@string/social_media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:layout_weight="1"
+            android:id="@+id/social_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+        <custom_views.FadeyTextView
+            android:gravity="center"
+            android:height="100dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/black"
+            android:text="FACEBOOK"
+            android:typeface="sans"
+            android:id="@+id/social_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

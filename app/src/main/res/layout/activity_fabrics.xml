@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+
+    <com.yayandroid.parallaxrecyclerview.ParallaxRecyclerView
+        android:id="@+id/fabrics_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+    </com.yayandroid.parallaxrecyclerview.ParallaxRecyclerView>
+
+    <LinearLayout
+        android:background="#b0ffffff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/back"
+            android:id="@+id/back"
+            android:layout_width="45dp"
+            android:layout_height="match_parent" />
+
+
+
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:typeface="sans"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/menu_text"
+            android:text="@string/fabrics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

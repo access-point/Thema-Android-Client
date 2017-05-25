@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_couches"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="creativedays.com.dilzas.CouchesActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <FrameLayout
+        android:background="#77ffffff"
+        android:id="@+id/blurringview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:scaleType="fitCenter"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:background="#93ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/back"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/fabrics"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="100dp">
+
+            </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/colors"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="140dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/camera"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+            <View
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/couch_bg_circle"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
++
+            <ImageView
+                android:id="@+id/couch"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+                <ProgressBar
+                    android:visibility="gone"
+                    android:id="@+id/loader"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+</FrameLayout>

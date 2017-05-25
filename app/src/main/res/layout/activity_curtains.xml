@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="creativedays.com.dilzas.CurtainsActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:alpha="0.3"
+        android:src="@drawable/sky"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+
+
+    <FrameLayout
+        android:background="#77ffffff"
+        android:id="@+id/blurringview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:scaleType="fitCenter"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:background="#93ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/back"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/fabrics"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="100dp">
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/colors"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:orientation="horizontal">
+
+            </android.support.v7.widget.RecyclerView>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/camera"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+                <ProgressBar
+                    android:visibility="gone"
+                    android:layout_marginRight="30dp"
+                    android:layout_gravity="right"
+                    android:id="@+id/loader"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:id="@+id/activity_curtains"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+
+
+
+            <ImageView
+                    android:id="@+id/curtain"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                     />
+
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

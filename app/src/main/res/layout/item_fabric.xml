@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+
+    <com.yayandroid.parallaxrecyclerview.ParallaxImageView
+        app:parallax_ratio="2"
+        android:scaleType="fitXY"
+        android:id="@+id/fabric_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:shadowColor="#000000"
+        android:shadowDy="2"
+        android:shadowDx="2"
+        android:shadowRadius="10"
+        android:layout_gravity="center"
+        android:id="@+id/fabric_title"
+        android:padding="10dp"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
