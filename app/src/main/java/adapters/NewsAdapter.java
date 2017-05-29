@@ -53,7 +53,7 @@ public class NewsAdapter extends BaseAdapter {
 
             title.setText(news.get(position).getTitle());
             date.setText(news.get(position).getDate());
-            Glide.with(activity).load(news.get(position).getImgURL()).centerCrop().into(picture);
+            Glide.with(activity).load(news.get(position).getImgURL()).dontAnimate().fitCenter().into(picture);
 
             return row;
         }
@@ -64,7 +64,7 @@ public class NewsAdapter extends BaseAdapter {
 
             title.setText(news.get(position).getTitle());
             date.setText(news.get(position).getDate());
-            Glide.with(activity).load(news.get(position).getImgURL()).centerCrop().into(picture);
+            Glide.with(activity).load(news.get(position).getImgURL()).dontAnimate().fitCenter().into(picture);
             return convertView;
         }
     }

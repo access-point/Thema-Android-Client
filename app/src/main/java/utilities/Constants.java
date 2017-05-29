@@ -5,7 +5,7 @@ package utilities;
  */
 
 public class Constants {
-    public static final String BASE_URL="https://dilzas-backend.herokuapp.com";
+    public static final String BASE_URL="https://thema-backend.herokuapp.com";
     public static final String INIT="/init/";
 
 
