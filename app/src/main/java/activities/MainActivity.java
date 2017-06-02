@@ -183,9 +183,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 final String responseData = response.body().string();
                 responseData.replace("\"" + "gr" + "\"", "\"" + "el" + "\"");
                 if (!response.isSuccessful()) {
-                    Toast.makeText(MainActivity.this, getString(R.string.network_error), Toast.LENGTH_LONG).show();
-                    //finish();
-                    showContinue();
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(MainActivity.this, getString(R.string.network_error), Toast.LENGTH_LONG).show();
+                            //finish();
+                            showContinue();
+                        }
+                    });
+
                 } else {
                     runOnUiThread(new Runnable() {
                         @Override

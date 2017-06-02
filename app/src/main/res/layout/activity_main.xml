@@ -31,14 +31,14 @@
             android:id="@+id/imageView" />
 
         <ScrollView
-            android:overScrollMode="never"
+            android:overScrollMode="ifContentScrolls"
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp">
 
             <LinearLayout
-                android:layout_marginTop="20dp"
-                android:layout_gravity="center_vertical"
+
+                android:layout_gravity="center_horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
@@ -95,7 +95,7 @@
             </LinearLayout>
 
                 <LinearLayout
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:padding="10dp"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
