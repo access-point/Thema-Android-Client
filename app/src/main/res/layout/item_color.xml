@@ -6,6 +6,15 @@
     android:background="@drawable/frame"
     >
 
+
+
+    <ImageView
+        android:id="@+id/color_img"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:layout_width="99dp"
+        android:layout_height="99dp" />
+
     <TextView
         android:visibility="invisible"
         android:id="@+id/color_txt"
@@ -21,12 +30,5 @@
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <ImageView
-        android:id="@+id/color_img"
-        android:layout_gravity="center"
-        android:scaleType="centerCrop"
-        android:layout_width="99dp"
-        android:layout_height="99dp" />
 
 </FrameLayout>

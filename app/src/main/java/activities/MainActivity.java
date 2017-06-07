@@ -1670,7 +1670,355 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         viennaCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"vienna/couch_pillow_vienna_color_46.png");
         viennaCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"vienna/couch_pillow_vienna_color_49.png");
         vienna.setCouchPillows(viennaCouchPillows);
+
+
+
+
+        ArrayList<FabricColor> cuervoColors=new ArrayList<>();
+
+        cuervoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cuervo_color_01.jpg", Constants.FABRICS_BASE_URL+"cuervo/fabric_cuervo_color_01.jpg","Color 01","Χρώμα 01"));
+        cuervoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cuervo_color_02.jpg", Constants.FABRICS_BASE_URL+"cuervo/fabric_cuervo_color_02.jpg","Color 02","Χρώμα 02"));
+        cuervoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cuervo_color_03.jpg", Constants.FABRICS_BASE_URL+"cuervo/fabric_cuervo_color_03.jpg","Color 03","Χρώμα 03"));
+        cuervoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cuervo_color_04.jpg", Constants.FABRICS_BASE_URL+"cuervo/fabric_cuervo_color_04.jpg","Color 04","Χρώμα 04"));
+
+        Fabric cuervo=new Fabric(R.drawable.cuervo,"CUERVO",cuervoColors);
+
+        ArrayList<String> cuervoCouches=new ArrayList<>();
+        cuervoCouches.add(Constants.COUCHES_BASE_URL+"cuervo/couch_cuervo_color_01.png");
+        cuervoCouches.add(Constants.COUCHES_BASE_URL+"cuervo/couch_cuervo_color_02.png");
+        cuervoCouches.add(Constants.COUCHES_BASE_URL+"cuervo/couch_cuervo_color_03.png");
+        cuervoCouches.add(Constants.COUCHES_BASE_URL+"cuervo/couch_cuervo_color_04.png");
+
+        cuervo.setCouches(cuervoCouches);
+
+
+
+
+        ArrayList <String> cuervoCouchBodys=new ArrayList<>();
+        cuervoCouchBodys.add(Constants.COUCHES_BODY_URL+"cuervo/couch_body_cuervo_color_01.png");
+        cuervoCouchBodys.add(Constants.COUCHES_BODY_URL+"cuervo/couch_body_cuervo_color_02.png");
+        cuervoCouchBodys.add(Constants.COUCHES_BODY_URL+"cuervo/couch_body_cuervo_color_03.png");
+        cuervoCouchBodys.add(Constants.COUCHES_BODY_URL+"cuervo/couch_body_cuervo_color_04.png");
+
+        cuervo.setCouchBodys(cuervoCouchBodys);
+
+        ArrayList<String> cuervoCouchPillows=new ArrayList<>();
+        cuervoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cuervo/couch_pillow_cuervo_color_01.png");
+        cuervoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cuervo/couch_pillow_cuervo_color_02.png");
+        cuervoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cuervo/couch_pillow_cuervo_color_03.png");
+        cuervoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cuervo/couch_pillow_cuervo_color_04.png");
+
+        cuervo.setCouchPillows(cuervoCouchPillows);
+
+        ArrayList<FabricColor> macaoColors=new ArrayList<>();
+        macaoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_macao_color_101.jpg", Constants.FABRICS_BASE_URL+"macao/fabric_macao_color_101.jpg","Color 101","Χρώμα 101"));
+        macaoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_macao_color_102.jpg", Constants.FABRICS_BASE_URL+"macao/fabric_macao_color_102.jpg","Color 102","Χρώμα 102"));
+        macaoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_macao_color_103.jpg", Constants.FABRICS_BASE_URL+"macao/fabric_macao_color_103.jpg","Color 103","Χρώμα 103"));
+        macaoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_macao_color_104.jpg", Constants.FABRICS_BASE_URL+"macao/fabric_macao_color_104.jpg","Color 104","Χρώμα 104"));
+        macaoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_macao_color_105.jpg", Constants.FABRICS_BASE_URL+"macao/fabric_macao_color_105.jpg","Color 105","Χρώμα 105"));
+        macaoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_macao_color_106.jpg", Constants.FABRICS_BASE_URL+"macao/fabric_macao_color_106.jpg","Color 106","Χρώμα 106"));
+
+        Fabric macao=new Fabric(R.drawable.macao,"MACAO",macaoColors);
+
+        ArrayList<String> macaoCouches=new ArrayList<>();
+        macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_101.png");
+        macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_102.png");
+        macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_103.png");
+        macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_104.png");
+        macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_105.png");
+        macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_106.png");
         
+        macao.setCouches(macaoCouches);
+
+        ArrayList<String> macaoCouchBodys=new ArrayList<>();
+        macaoCouchBodys.add(Constants.COUCHES_BODY_URL+"macao/couch_body_macao_color_101.png");
+        macaoCouchBodys.add(Constants.COUCHES_BODY_URL+"macao/couch_body_macao_color_102.png");
+        macaoCouchBodys.add(Constants.COUCHES_BODY_URL+"macao/couch_body_macao_color_103.png");
+        macaoCouchBodys.add(Constants.COUCHES_BODY_URL+"macao/couch_body_macao_color_104.png");
+        macaoCouchBodys.add(Constants.COUCHES_BODY_URL+"macao/couch_body_macao_color_105.png");
+        macaoCouchBodys.add(Constants.COUCHES_BODY_URL+"macao/couch_body_macao_color_106.png");
+        macao.setCouchBodys(macaoCouchBodys);
+
+        ArrayList<String> macaoCouchPillows=new ArrayList<>();
+        macaoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"macao/couch_pillow_macao_color_101.png");
+        macaoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"macao/couch_pillow_macao_color_102.png");
+        macaoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"macao/couch_pillow_macao_color_103.png");
+        macaoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"macao/couch_pillow_macao_color_104.png");
+        macaoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"macao/couch_pillow_macao_color_105.png");
+        macaoCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"macao/couch_pillow_macao_color_106.png");
+
+        macao.setCouchPillows(macaoCouchPillows);
+
+        ArrayList<FabricColor> tenerifeColors=new ArrayList<>();
+        tenerifeColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_tenerife_color_101.jpg", Constants.FABRICS_BASE_URL+"tenerife/fabric_tenerife_color_101.jpg","Color 101","Χρώμα 101"));
+        tenerifeColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_tenerife_color_102.jpg", Constants.FABRICS_BASE_URL+"tenerife/fabric_tenerife_color_102.jpg","Color 102","Χρώμα 102"));
+        tenerifeColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_tenerife_color_103.jpg", Constants.FABRICS_BASE_URL+"tenerife/fabric_tenerife_color_103.jpg","Color 103","Χρώμα 103"));
+        tenerifeColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_tenerife_color_104.jpg", Constants.FABRICS_BASE_URL+"tenerife/fabric_tenerife_color_104.jpg","Color 104","Χρώμα 104"));
+        tenerifeColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_tenerife_color_105.jpg", Constants.FABRICS_BASE_URL+"tenerife/fabric_tenerife_color_105.jpg","Color 105","Χρώμα 105"));
+        tenerifeColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_tenerife_color_106.jpg", Constants.FABRICS_BASE_URL+"tenerife/fabric_tenerife_color_106.jpg","Color 106","Χρώμα 106"));
+
+        Fabric tenerife=new Fabric(R.drawable.tenerife,"TENERIFE",tenerifeColors);
+
+        ArrayList<String> tenerifeCouches=new ArrayList<>();
+        tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_101.png");
+        tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_102.png");
+        tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_103.png");
+        tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_104.png");
+        tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_105.png");
+        tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_106.png");
+        
+        tenerife.setCouches(tenerifeCouches);
+
+        ArrayList<String> tenerifeCouchBodys=new ArrayList<>();
+        tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_101.png");
+        tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_102.png");
+        tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_103.png");
+        tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_104.png");
+        tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_105.png");
+        tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_106.png");
+        
+        tenerife.setCouchBodys(tenerifeCouchBodys);
+
+        ArrayList<String> tenerifeCouchPillows=new ArrayList<>();
+        tenerifeCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"tenerife/couch_pillow_tenerife_color_101.png");
+        tenerifeCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"tenerife/couch_pillow_tenerife_color_102.png");
+        tenerifeCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"tenerife/couch_pillow_tenerife_color_103.png");
+        tenerifeCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"tenerife/couch_pillow_tenerife_color_104.png");
+        tenerifeCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"tenerife/couch_pillow_tenerife_color_105.png");
+        tenerifeCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"tenerife/couch_pillow_tenerife_color_106.png");
+
+        tenerife.setCouchPillows(tenerifeCouchPillows);
+
+        ArrayList<FabricColor> utopiaColors=new ArrayList<>();
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_01.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_01.jpg","Color 01","Χρώμα 01"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_02.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_02.jpg","Color 02","Χρώμα 02"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_03.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_03.jpg","Color 03","Χρώμα 03"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_101.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_101.jpg","Color 101","Χρώμα 101"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_102.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_102.jpg","Color 102","Χρώμα 102"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_103.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_103.jpg","Color 103","Χρώμα 103"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_201.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_201.jpg","Color 201","Χρώμα 201"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_202.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_202.jpg","Color 202","Χρώμα 202"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_203.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_203.jpg","Color 203","Χρώμα 203"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_301.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_301.jpg","Color 301","Χρώμα 301"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_302.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_302.jpg","Color 302","Χρώμα 302"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_303.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_303.jpg","Color 303","Χρώμα 303"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_304.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_304.jpg","Color 304","Χρώμα 304"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_401.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_401.jpg","Color 401","Χρώμα 401"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_402.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_402.jpg","Color 402","Χρώμα 402"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_403.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_403.jpg","Color 403","Χρώμα 403"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_404.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_404.jpg","Color 404","Χρώμα 404"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_501.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_501.jpg","Color 501","Χρώμα 501"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_502.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_502.jpg","Color 502","Χρώμα 502"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_503.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_503.jpg","Color 503","Χρώμα 503"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_601.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_601.jpg","Color 601","Χρώμα 601"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_602.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_602.jpg","Color 602","Χρώμα 602"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_603.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_603.jpg","Color 603","Χρώμα 603"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_604.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_604.jpg","Color 604","Χρώμα 604"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_701.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_701.jpg","Color 701","Χρώμα 701"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_702.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_702.jpg","Color 702","Χρώμα 702"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_801.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_801.jpg","Color 801","Χρώμα 801"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_802.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_802.jpg","Color 802","Χρώμα 802"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_901.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_901.jpg","Color 901","Χρώμα 901"));
+        utopiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_utopia_color_902.jpg", Constants.FABRICS_BASE_URL+"utopia/fabric_utopia_color_902.jpg","Color 902","Χρώμα 902"));
+
+        Fabric utopia=new Fabric(R.drawable.utopia,"UTOPIA",utopiaColors);
+
+        ArrayList<String> utopiaCouches=new ArrayList<>();
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_01.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_02.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_03.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_101.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_102.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_103.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_201.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_202.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_203.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_301.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_302.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_303.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_304.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_401.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_402.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_403.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_404.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_501.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_502.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_503.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_601.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_602.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_603.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_604.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_701.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_702.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_801.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_802.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_901.png");
+        utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_902.png");
+        
+        utopia.setCouches(utopiaCouches);
+        
+        ArrayList<String> utopiaBodys=new ArrayList<>();
+
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_01.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_02.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_03.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_101.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_102.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_103.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_201.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_202.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_203.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_301.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_302.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_303.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_304.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_401.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_402.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_403.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_404.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_501.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_502.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_503.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_601.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_602.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_603.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_604.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_701.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_702.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_801.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_802.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_901.png");
+        utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_902.png");
+        
+        utopia.setCouchBodys(utopiaBodys);
+
+        ArrayList<String> utopiaPillows=new ArrayList<>();
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_01.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_02.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_03.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_101.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_102.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_103.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_201.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_202.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_203.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_301.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_302.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_303.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_304.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_401.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_402.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_403.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_404.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_501.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_502.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_503.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_601.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_602.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_603.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_604.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_701.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_702.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_801.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_802.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_901.png");
+        utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_902.png");
+        
+        utopia.setCouchPillows(utopiaPillows);
+
+        ArrayList<FabricColor> theronColors=new ArrayList<>();
+        theronColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_theron_color_krem.jpg", Constants.FABRICS_BASE_URL+"theron/fabric_theron_color_krem.jpg","Krem","Krem"));
+        theronColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_theron_color_nohut.jpg", Constants.FABRICS_BASE_URL+"theron/fabric_theron_color_nohut.jpg","Nohut","Nohut"));
+        theronColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_theron_color_pudra.jpg", Constants.FABRICS_BASE_URL+"theron/fabric_theron_color_pudra.jpg","Pudra","Pudra"));
+
+        Fabric theron=new Fabric(R.drawable.theron,"THERON",theronColors);
+
+        ArrayList<String> theronCouches=new ArrayList<>();
+        theronCouches.add(Constants.COUCHES_BASE_URL+"theron/couch_theron_color_krem.png");
+        theronCouches.add(Constants.COUCHES_BASE_URL+"theron/couch_theron_color_nohut.png");
+        theronCouches.add(Constants.COUCHES_BASE_URL+"theron/couch_theron_color_pudra.png");
+
+        theron.setCouches(theronCouches);
+
+        ArrayList<String> theronCouchBodys=new ArrayList<>();
+        theronCouchBodys.add(Constants.COUCHES_BODY_URL+"theron/couch_body_theron_color_krem.png");
+        theronCouchBodys.add(Constants.COUCHES_BODY_URL+"theron/couch_body_theron_color_nohut.png");
+        theronCouchBodys.add(Constants.COUCHES_BODY_URL+"theron/couch_body_theron_color_pudra.png");
+
+        theron.setCouchBodys(theronCouchBodys);
+
+        ArrayList<String> theronCouchPillows=new ArrayList<>();
+        theronCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"theron/couch_pillow_theron_color_krem.png");
+        theronCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"theron/couch_pillow_theron_color_nohut.png");
+        theronCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"theron/couch_pillow_theron_color_pudra.png");
+
+        theron.setCouchPillows(theronCouchPillows);
+
+        ArrayList<FabricColor> cantuColors=new ArrayList<>();
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_01.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_01.jpg","Color 01","Χρώμα 01"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_02.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_02.jpg","Color 02","Χρώμα 02"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_03.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_03.jpg","Color 03","Χρώμα 03"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_04.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_04.jpg","Color 04","Χρώμα 04"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_05.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_05.jpg","Color 05","Χρώμα 05"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_06.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_06.jpg","Color 06","Χρώμα 06"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_07.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_07.jpg","Color 07","Χρώμα 07"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_08.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_08.jpg","Color 08","Χρώμα 08"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_09.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_09.jpg","Color 09","Χρώμα 09"));
+        cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_10.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_10.jpg","Color 10","Χρώμα 10"));
+        
+        Fabric cantu=new Fabric(R.drawable.cantu,"CANTU",cantuColors);
+        
+        ArrayList<String> cantuCouches=new ArrayList<>();
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_01.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_02.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_03.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_04.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_05.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_06.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_07.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_08.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_09.png");
+        cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_10.png");
+        
+        cantu.setCouches(calmCouches);
+
+        ArrayList<String> cantuCouchBodys=new ArrayList<>();
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_01.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_02.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_03.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_04.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_05.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_06.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_07.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_08.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_09.png");
+        cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_10.png");
+        
+        cantu.setCouchBodys(cantuCouchBodys);
+
+        ArrayList<String> cantuCouchPillows=new ArrayList<>();
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_01.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_02.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_03.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_04.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_05.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_06.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_07.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_08.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_09.png");
+        cantuCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"cantu/couch_pillow_cantu_color_10.png");
+
+        cantu.setCouchPillows(cantuCouchPillows);
+
+
+
+
+
+
+
+
+
+
 
 
         //Here the curtain fabrics are starting
@@ -2482,6 +2830,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         indoorFabrics.add(orlando);
         indoorFabrics.add(sense);
         indoorFabrics.add(vienna);
+        indoorFabrics.add(cuervo);
+        indoorFabrics.add(macao);
+        indoorFabrics.add(tenerife);
+        indoorFabrics.add(utopia);
+        indoorFabrics.add(theron);
+        indoorFabrics.add(cantu);
 
         allFabrics.add(atlantis);
         allFabrics.add(belvedere);

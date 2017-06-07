@@ -1,10 +1,14 @@
 package creativedays.com.dilzas;
 
+import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -177,7 +181,40 @@ public class SofaCreatorActivity extends AppCompatActivity {
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startCamera();
+                int currentapiVersion = android.os.Build.VERSION.SDK_INT;
+                if (currentapiVersion >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+                    if (ContextCompat.checkSelfPermission(SofaCreatorActivity.this,
+                            Manifest.permission.CAMERA)
+                            != PackageManager.PERMISSION_GRANTED) {
+
+                        // Should we show an explanation?
+                        if (ActivityCompat.shouldShowRequestPermissionRationale(SofaCreatorActivity.this,
+                                Manifest.permission.CAMERA)) {
+
+                            // Show an expanation to the user *asynchronously* -- don't block
+                            // this thread waiting for the user's response! After the user
+                            // sees the explanation, try again to request the permission.
+
+                        } else {
+
+                            // No explanation needed, we can request the permission.
+
+                            ActivityCompat.requestPermissions(SofaCreatorActivity.this,
+                                    new String[]{Manifest.permission.CAMERA},
+                                    2);
+
+                            // MY_PERMISSIONS_REQUEST_READ_CONTACTS is an
+                            // app-defined int constant. The callback method gets the
+                            // result of the request.
+                        }
+                    }
+                    else {
+                        startCamera();
+                    }
+                }
+                else {
+                    startCamera();
+                }
             }
         });
 
