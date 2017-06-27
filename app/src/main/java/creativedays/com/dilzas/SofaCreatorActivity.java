@@ -56,6 +56,7 @@ public class SofaCreatorActivity extends AppCompatActivity {
 
     ImageView menu;
     ImageView camera;
+    ImageView back;
 
     TextView bodyTab;
     TextView pillowsTab;
@@ -114,6 +115,7 @@ public class SofaCreatorActivity extends AppCompatActivity {
 
         camera=(ImageView)findViewById(R.id.camera);
         pagersLayout=(FrameLayout)findViewById(R.id.pagers_layout);
+        back=(ImageView)findViewById(R.id.back);
 
         bodyPager=(CustomViewPager)findViewById(R.id.body_pager);
         pillowsPager=(CustomViewPager)findViewById(R.id.pilows_pager);
@@ -136,6 +138,13 @@ public class SofaCreatorActivity extends AppCompatActivity {
 
         bodyTab=(TextView)findViewById(R.id.body_tab);
         pillowsTab=(TextView)findViewById(R.id.pillows_tab);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         bodyColorsAdapter = new CreatorColorsRecyclerAdapter(selectedBodyFabric,SofaCreatorActivity.this);
         bodyFabricsRecyclerAdapter = new CreatorFabricsRecyclerAdapter(fabrics,this);

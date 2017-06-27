@@ -47,6 +47,8 @@ import okhttp3.Request;
 import okhttp3.Response;
 import utilities.Constants;
 
+import static creativedays.com.dilzas.R.string.outdoor;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     KenBurnsView ken;
     TextView newsTxt;
@@ -64,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     ArrayList <Fabric> indoorFabrics;
     ArrayList <Fabric>outdoorFabrics;
+    ArrayList <Fabric> outdoorTemp;
     ArrayList<Fabric> allFabrics;
     ArrayList <Fabric> curtainFabrics;
 
@@ -147,9 +150,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         url = Constants.BASE_URL + Constants.INIT + Locale.getDefault().getLanguage();
         //String url = Constants.BASE_URL + Constants.INIT+"el";
         OkHttpClient client = new OkHttpClient.Builder()
-                .connectTimeout(30, TimeUnit.SECONDS)
-                .writeTimeout(30, TimeUnit.SECONDS)
-                .readTimeout(30, TimeUnit.SECONDS)
+                .connectTimeout(20, TimeUnit.SECONDS)
+                .writeTimeout(20, TimeUnit.SECONDS)
+                .readTimeout(20, TimeUnit.SECONDS)
                 .build();
 
         Request request = new Request.Builder()
@@ -381,6 +384,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void initData () {
         indoorFabrics =new ArrayList<>();
         outdoorFabrics=new ArrayList<>();
+        outdoorTemp=new ArrayList<>();
         allFabrics=new ArrayList<>();
         curtainFabrics=new ArrayList<>();
 
@@ -2859,6 +2863,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         outdoorFabrics.add(aegean);
         outdoorFabrics.add(ocean);
 
+        outdoorTemp.add(aegean);
+        outdoorTemp.add(ocean);
+        outdoorTemp.add(tenerife);
+        outdoorTemp.add(utopia);
+        outdoorTemp.add(macao);
+        outdoorTemp.add(cuervo);
+
 
 
         curtainFabrics.add(monika);
@@ -2911,8 +2922,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         indoorFabricType.setImgId(R.drawable.indoors);
 
         FabricType outdoorFabricType=new FabricType();
-        outdoorFabricType.setFabrics(outdoorFabrics);
-        outdoorFabricType.setName(getString(R.string.outdoor));
+        outdoorFabricType.setFabrics(outdoorTemp);
+        outdoorFabricType.setName(getString(outdoor));
         outdoorFabricType.setImgId(R.drawable.outdoors);
 
         FabricType curtainFabricType=new FabricType();
