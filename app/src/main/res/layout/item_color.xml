@@ -16,6 +16,7 @@
         android:layout_height="99dp" />
 
     <TextView
+        android:gravity="center"
         android:visibility="invisible"
         android:id="@+id/color_txt"
         android:typeface="sans"

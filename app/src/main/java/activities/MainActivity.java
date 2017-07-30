@@ -2027,16 +2027,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //Here the curtain fabrics are starting
         ArrayList<FabricColor> monikaColors=new ArrayList<>();
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140041.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140041.jpg","Color 140041","Χρώμα 140041"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140042.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140042.jpg","Color 140042","Χρώμα 140042"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140043.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140043.jpg","Color 140043","Χρώμα 140043"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140044.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140044.jpg","Color 140044","Χρώμα 140044"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140045.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140045.jpg","Color 140045","Χρώμα 140045"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140051.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140051.jpg","Color 140051","Χρώμα 140051"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140052.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140052.jpg","Color 140052","Χρώμα 140052"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140053.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140053.jpg","Color 140053","Χρώμα 140053"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140054.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140054.jpg","Color 140054","Χρώμα 140054"));
-        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140055.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140055.jpg","Color 140055","Χρώμα 140055"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140041.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140041.jpg","Color 14004/1","Χρώμα 14004/1"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140042.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140042.jpg","Color 14004/2","Χρώμα 14004/2"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140043.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140043.jpg","Color 14004/3","Χρώμα 14004/3"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140044.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140044.jpg","Color 14004/4","Χρώμα 14004/4"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140045.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140045.jpg","Color 14004/5","Χρώμα 14004/5"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140051.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140051.jpg","Color 14005/1","Χρώμα 14005/1"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140052.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140052.jpg","Color 14005/2","Χρώμα 14005/2"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140053.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140053.jpg","Color 14005/3","Χρώμα 14005/3"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140054.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140054.jpg","Color 14005/4","Χρώμα 14005/4"));
+        monikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_monika_color_140055.jpg", Constants.FABRICS_BASE_URL+"monika/fabric_monika_color_140055.jpg","Color 14005/5","Χρώμα 14005/5"));
 
         Fabric monika=new Fabric(R.drawable.monika,"MONIKA",monikaColors);
         ArrayList<String> monikaCurtains=new ArrayList<>();
@@ -2053,16 +2053,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         monika.setCurtains(monikaCurtains);
 
         ArrayList<FabricColor> afroditiColors=new ArrayList<>();
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_1a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_1A.jpg","Color 1A","Χρώμα 1A"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_1b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_1B.jpg","Color 1B","Χρώμα 1B"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_2a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_2A.jpg","Color 2A","Χρώμα 2A"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_2b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_2B.jpg","Color 2B","Χρώμα 2B"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_3a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_3A.jpg","Color 3A","Χρώμα 3A"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_3b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_3B.jpg","Color 3B","Χρώμα 3B"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_4a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_4A.jpg","Color 4A","Χρώμα 4A"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_4b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_4B.jpg","Color 4B","Χρώμα 4B"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_5a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_5A.jpg","Color 5A","Χρώμα 5A"));
-        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_5b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_5B.jpg","Color 5B","Χρώμα 5B"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_1a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_1A.jpg","Color 14001/1A","Χρώμα 14001/1A"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_1b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_1B.jpg","Color 14001/1B","Χρώμα 14001/1B"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_2a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_2A.jpg","Color 14001/2A","Χρώμα 14001/2A"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_2b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_2B.jpg","Color 14001/2B","Χρώμα 14001/2B"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_3a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_3A.jpg","Color 14001/3A","Χρώμα 14001/3A"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_3b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_3B.jpg","Color 14001/3B","Χρώμα 14001/3B"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_4a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_4A.jpg","Color 14001/4A","Χρώμα 14001/4A"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_4b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_4B.jpg","Color 14001/4B","Χρώμα 14001/4B"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_5a.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_5A.jpg","Color 14001/5A","Χρώμα 14001/5A"));
+        afroditiColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_afroditi_color_5b.jpg", Constants.FABRICS_BASE_URL+"afroditi/fabric_afroditi_color_5B.jpg","Color 14001/5B","Χρώμα 14001/5B"));
 
         Fabric afroditi=new Fabric(R.drawable.afroditi,"AFRODITI",afroditiColors);
 
@@ -2082,9 +2082,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> antoinetteColors=new ArrayList<>();
-        antoinetteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_antoinette_color_01.jpg", Constants.FABRICS_BASE_URL+"antoinette/fabric_antoinette_color_01.jpg","Color 01","Χρώμα 01"));
-        antoinetteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_antoinette_color_02.jpg", Constants.FABRICS_BASE_URL+"antoinette/fabric_antoinette_color_02.jpg","Color 01","Χρώμα 02"));
-        antoinetteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_antoinette_color_03.jpg", Constants.FABRICS_BASE_URL+"antoinette/fabric_antoinette_color_03.jpg","Color 01","Χρώμα 03"));
+        antoinetteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_antoinette_color_01.jpg", Constants.FABRICS_BASE_URL+"antoinette/fabric_antoinette_color_01.jpg","Color 25001/01","Χρώμα 25001/01"));
+        antoinetteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_antoinette_color_02.jpg", Constants.FABRICS_BASE_URL+"antoinette/fabric_antoinette_color_02.jpg","Color 25001/02","Χρώμα 25001/02"));
+        antoinetteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_antoinette_color_03.jpg", Constants.FABRICS_BASE_URL+"antoinette/fabric_antoinette_color_03.jpg","Color 25001/03","Χρώμα 25001/03"));
         Fabric antoinette=new Fabric(R.drawable.antoinette,"ANTOINETTE",antoinetteColors);
 
         ArrayList<String> antoinetteCurtains=new ArrayList<>();
@@ -2095,10 +2095,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         antoinette.setCurtains(antoinetteCurtains);
 
         ArrayList<FabricColor> barbaraColors=new ArrayList<>();
-        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_01.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_01.jpg","Color 01","Χρώμα 01"));
-        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_02.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_02.jpg","Color 02","Χρώμα 02"));
-        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_03.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_03.jpg","Color 03","Χρώμα 03"));
-        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_04.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_04.jpg","Color 04","Χρώμα 04"));
+        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_01.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_01.jpg","Color 12002/01","Χρώμα 12002/01"));
+        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_02.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_02.jpg","Color 12002/02","Χρώμα 12002/02"));
+        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_03.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_03.jpg","Color 12002/03","Χρώμα 12002/03"));
+        barbaraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_barbara_color_04.jpg", Constants.FABRICS_BASE_URL+"barbara/fabric_barbara_color_04.jpg","Color 12002/04","Χρώμα 12002/04"));
 
         Fabric barbara=new Fabric(R.drawable.barbara,"BARBARA",barbaraColors);
         ArrayList<String> barbaraCurtains=new ArrayList<>();
@@ -2110,12 +2110,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         barbara.setCurtains(barbaraCurtains);
 
         ArrayList<FabricColor> brigitteColors=new ArrayList<>();
-        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_01.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_01.jpg","Color 01","Χρώμα 01"));
-        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_02.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_02.jpg","Color 02","Χρώμα 02"));
-        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_03.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_03.jpg","Color 03","Χρώμα 03"));
-        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_04.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_04.jpg","Color 04","Χρώμα 04"));
-        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_05.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_05.jpg","Color 05","Χρώμα 05"));
-        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_06.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_06.jpg","Color 06","Χρώμα 06"));
+        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_01.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_01.jpg","Color 20010/01","Χρώμα 20010/01"));
+        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_02.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_02.jpg","Color 20010/02","Χρώμα 20010/02"));
+        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_03.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_03.jpg","Color 20010/03","Χρώμα 20010/03"));
+        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_04.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_04.jpg","Color 20010/04","Χρώμα 20010/04"));
+        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_05.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_05.jpg","Color 20010/05","Χρώμα 20010/05"));
+        brigitteColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_brigitte_color_06.jpg", Constants.FABRICS_BASE_URL+"brigitte/fabric_brigitte_color_06.jpg","Color 20010/06","Χρώμα 20010/06"));
 
         Fabric brigitte=new Fabric(R.drawable.brigitte,"BRIGITTE",brigitteColors);
         ArrayList<String> brigitteCurtains=new ArrayList<>();
@@ -2130,16 +2130,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> electraColors=new ArrayList<>();
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130081.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130081.jpg","Color 130081","Χρώμα 130081"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130082.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130082.jpg","Color 130082","Χρώμα 130082"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130083.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130083.jpg","Color 130083","Χρώμα 130083"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130084.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130084.jpg","Color 130084","Χρώμα 130084"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130085.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130085.jpg","Color 130085","Χρώμα 130085"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130091.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130091.jpg","Color 130091","Χρώμα 130091"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130092.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130092.jpg","Color 130092","Χρώμα 130092"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130093.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130093.jpg","Color 130093","Χρώμα 130093"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130094.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130094.jpg","Color 130094","Χρώμα 130094"));
-        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130095.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130095.jpg","Color 130095","Χρώμα 130095"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130081.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130081.jpg","Color 13008/1","Χρώμα 13008/1"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130082.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130082.jpg","Color 13008/2","Χρώμα 13008/2"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130083.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130083.jpg","Color 13008/3","Χρώμα 13008/3"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130084.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130084.jpg","Color 13008/4","Χρώμα 13008/4"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130085.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130085.jpg","Color 13008/5","Χρώμα 13008/5"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130091.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130091.jpg","Color 13009/1","Χρώμα 13009/1"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130092.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130092.jpg","Color 13009/2","Χρώμα 13009/2"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130093.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130093.jpg","Color 13009/3","Χρώμα 13009/3"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130094.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130094.jpg","Color 13009/4","Χρώμα 13009/4"));
+        electraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_electra_color_130095.jpg", Constants.FABRICS_BASE_URL+"electra/fabric_electra_color_130095.jpg","Color 13009/5","Χρώμα 13009/5"));
 
         Fabric electra=new Fabric(R.drawable.electra,"ELECTRA",electraColors);
         ArrayList<String> electraCurtains=new ArrayList<>();
@@ -2156,12 +2156,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         electra.setCurtains(electraCurtains);
 
         ArrayList<FabricColor> elisabethColors=new ArrayList<>();
-        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130021.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130021.jpg","Color 130021","Χρώμα 130021"));
-        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130022.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130022.jpg","Color 130022","Χρώμα 130022"));
-        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130023.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130023.jpg","Color 130023","Χρώμα 130023"));
-        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130031.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130031.jpg","Color 130031","Χρώμα 130031"));
-        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130032.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130032.jpg","Color 130032","Χρώμα 130032"));
-        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130033.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130033.jpg","Color 130033","Χρώμα 130033"));
+        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130021.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130021.jpg","Color 13002/1","Χρώμα 13002/1"));
+        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130022.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130022.jpg","Color 13002/2","Χρώμα 13002/2"));
+        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130023.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130023.jpg","Color 13002/3","Χρώμα 13002/3"));
+        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130031.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130031.jpg","Color 13003/1","Χρώμα 13003/1"));
+        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130032.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130032.jpg","Color 13003/2","Χρώμα 13003/2"));
+        elisabethColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_elisabeth_color_130033.jpg", Constants.FABRICS_BASE_URL+"elisabeth/fabric_elisabeth_color_130033.jpg","Color 13003/3","Χρώμα 13003/3"));
 
         Fabric elisabeth=new Fabric(R.drawable.elisabeth,"ELISABETH",elisabethColors);
 
@@ -2177,10 +2177,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> emilyColors=new ArrayList<>();
-        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_01.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_01.jpg","Color 01","Χρώμα 01"));
-        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_02.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_02.jpg","Color 02","Χρώμα 02"));
-        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_03.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_03.jpg","Color 03","Χρώμα 03"));
-        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_04.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_04.jpg","Color 04","Χρώμα 04"));
+        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_01.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_01.jpg","Color 14003/01","Χρώμα 14003/01"));
+        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_02.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_02.jpg","Color 14003/02","Χρώμα 14003/02"));
+        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_03.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_03.jpg","Color 14003/03","Χρώμα 14003/03"));
+        emilyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_emily_color_04.jpg", Constants.FABRICS_BASE_URL+"emily/fabric_emily_color_04.jpg","Color 14003/04","Χρώμα 14003/04"));
 
         Fabric emily=new Fabric(R.drawable.emily,"EMILY",emilyColors);
 
@@ -2193,31 +2193,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         emily.setCurtains(emilyCurtains);
 
         ArrayList<FabricColor> estellaColors=new ArrayList<>();
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200012.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200012.jpg","Color 200012","Χρώμα 200012"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200021.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200021.jpg","Color 200021","Χρώμα 200021"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200022.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200022.jpg","Color 200022","Χρώμα 200022"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200023.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200023.jpg","Color 200023","Χρώμα 200023"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200024.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200024.jpg","Color 200024","Χρώμα 200024"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200025.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200025.jpg","Color 200025","Χρώμα 200025"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200026.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200026.jpg","Color 200026","Χρώμα 200026"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200031.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200031.jpg","Color 200031","Χρώμα 200031"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200032.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200032.jpg","Color 200032","Χρώμα 200032"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200033.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200033.jpg","Color 200033","Χρώμα 200033"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200034.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200034.jpg","Color 200034","Χρώμα 200034"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200035.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200035.jpg","Color 200035","Χρώμα 200035"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200036.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200036.jpg","Color 200036","Χρώμα 200036"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200041.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200041.jpg","Color 200041","Χρώμα 200041"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200042.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200042.jpg","Color 200042","Χρώμα 200042"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200043.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200043.jpg","Color 200043","Χρώμα 200043"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200044.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200044.jpg","Color 200044","Χρώμα 200044"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200045.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200045.jpg","Color 200045","Χρώμα 200045"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200046.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200046.jpg","Color 200046","Χρώμα 200046"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200051.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200051.jpg","Color 200051","Χρώμα 200051"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200052.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200052.jpg","Color 200052","Χρώμα 200052"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200053.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200053.jpg","Color 200053","Χρώμα 200053"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200054.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200054.jpg","Color 200054","Χρώμα 200054"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200055.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200055.jpg","Color 200055","Χρώμα 200055"));
-        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200056.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200056.jpg","Color 200056","Χρώμα 200056"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200012.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200012.jpg","Color 20001/2","Χρώμα 20001/2"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200021.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200021.jpg","Color 20002/1","Χρώμα 20002/1"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200022.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200022.jpg","Color 20002/2","Χρώμα 20002/2"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200023.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200023.jpg","Color 20002/3","Χρώμα 20002/3"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200024.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200024.jpg","Color 20002/4","Χρώμα 20002/4"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200025.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200025.jpg","Color 20002/5","Χρώμα 20002/5"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200026.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200026.jpg","Color 20002/6","Χρώμα 20002/6"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200031.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200031.jpg","Color 20003/1","Χρώμα 20003/1"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200032.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200032.jpg","Color 20003/2","Χρώμα 20003/2"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200033.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200033.jpg","Color 20003/3","Χρώμα 20003/3"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200034.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200034.jpg","Color 20003/4","Χρώμα 20003/4"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200035.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200035.jpg","Color 20003/5","Χρώμα 20003/5"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200036.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200036.jpg","Color 20003/6","Χρώμα 20003/6"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200041.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200041.jpg","Color 20004/1","Χρώμα 20004/1"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200042.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200042.jpg","Color 20004/2","Χρώμα 20004/2"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200043.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200043.jpg","Color 20004/3","Χρώμα 20004/3"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200044.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200044.jpg","Color 20004/4","Χρώμα 20004/4"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200045.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200045.jpg","Color 20004/5","Χρώμα 20004/5"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200046.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200046.jpg","Color 20004/6","Χρώμα 20004/6"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200051.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200051.jpg","Color 20005/1","Χρώμα 20005/1"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200052.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200052.jpg","Color 20005/2","Χρώμα 20005/2"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200053.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200053.jpg","Color 20005/3","Χρώμα 20005/3"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200054.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200054.jpg","Color 20005/4","Χρώμα 20005/4"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200055.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200055.jpg","Color 20005/5","Χρώμα 20005/5"));
+        estellaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_estella_color_200056.jpg", Constants.FABRICS_BASE_URL+"estella/fabric_estella_color_200056.jpg","Color 20005/6","Χρώμα 20005/6"));
 
         Fabric estella=new Fabric(R.drawable.estella,"ESTELLA",estellaColors);
 
@@ -2253,11 +2253,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> eugeniaColors=new ArrayList<>();
-        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_01.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_01.jpg","Color 01","Χρώμα 01"));
-        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_02.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_02.jpg","Color 02","Χρώμα 02"));
-        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_03.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_03.jpg","Color 03","Χρώμα 03"));
-        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_04.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_04.jpg","Color 04","Χρώμα 04"));
-        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_05.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_05.jpg","Color 05","Χρώμα 05"));
+        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_01.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_01.jpg","Color 15003/01","Χρώμα 15003/01"));
+        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_02.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_02.jpg","Color 15003/02","Χρώμα 15003/02"));
+        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_03.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_03.jpg","Color 15003/03","Χρώμα 15003/03"));
+        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_04.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_04.jpg","Color 15003/04","Χρώμα 15003/04"));
+        eugeniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eugenia_color_05.jpg", Constants.FABRICS_BASE_URL+"eugenia/fabric_eugenia_color_05.jpg","Color 15003/05","Χρώμα 15003/05"));
 
         Fabric eugenia=new Fabric(R.drawable.eugenia,"EUGENIA",eugeniaColors);
 
@@ -2271,10 +2271,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         eugenia.setCurtains(eugeniaCurtains);
 
         ArrayList<FabricColor> feliciaColors=new ArrayList<>();
-        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_01.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_01.jpg","Color 01","Χρώμα 01"));
-        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_02.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_02.jpg","Color 02","Χρώμα 02"));
-        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_03.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_03.jpg","Color 03","Χρώμα 03"));
-        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_04.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_04.jpg","Color 04","Χρώμα 04"));
+        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_01.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_01.jpg","Color 12004/01","Χρώμα 12004/01"));
+        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_02.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_02.jpg","Color 12004/02","Χρώμα 12004/02"));
+        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_03.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_03.jpg","Color 12004/03","Χρώμα 12004/03"));
+        feliciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_felicia_color_04.jpg", Constants.FABRICS_BASE_URL+"felicia/fabric_felicia_color_04.jpg","Color 12004/04","Χρώμα 12004/04"));
 
         Fabric felicia=new Fabric(R.drawable.felicia,"FELICIA",feliciaColors);
 
@@ -2287,11 +2287,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> irisColors=new ArrayList<>();
-        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_01.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_01.jpg","Color 01","Χρώμα 01"));
-        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_02.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_02.jpg","Color 02","Χρώμα 02"));
-        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_03.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_03.jpg","Color 03","Χρώμα 03"));
-        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_04.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_04.jpg","Color 04","Χρώμα 04"));
-        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_05.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_05.jpg","Color 05","Χρώμα 05"));
+        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_01.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_01.jpg","Color 11002/01","Χρώμα 11002/01"));
+        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_02.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_02.jpg","Color 11002/02","Χρώμα 11002/02"));
+        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_03.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_03.jpg","Color 11002/03","Χρώμα 11002/03"));
+        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_04.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_04.jpg","Color 11002/04","Χρώμα 11002/04"));
+        irisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_iris_color_05.jpg", Constants.FABRICS_BASE_URL+"iris/fabric_iris_color_05.jpg","Color 11002/05","Χρώμα 11002/05"));
 
         Fabric iris=new Fabric(R.drawable.iris,"IRIS",irisColors);
 
@@ -2305,11 +2305,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> kassandraColors=new ArrayList<>();
-        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_01.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_01.jpg","Color 01","Χρώμα 01"));
-        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_02.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_02.jpg","Color 02","Χρώμα 02"));
-        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_03.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_03.jpg","Color 03","Χρώμα 03"));
-        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_04.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_04.jpg","Color 04","Χρώμα 04"));
-        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_05.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_05.jpg","Color 05","Χρώμα 05"));
+        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_01.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_01.jpg","Color 11001/01","Χρώμα 11001/01"));
+        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_02.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_02.jpg","Color 11001/02","Χρώμα 11001/02"));
+        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_03.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_03.jpg","Color 11001/03","Χρώμα 11001/03"));
+        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_04.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_04.jpg","Color 11001/04","Χρώμα 11001/04"));
+        kassandraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_kassandra_color_05.jpg", Constants.FABRICS_BASE_URL+"kassandra/fabric_kassandra_color_05.jpg","Color 11001/05","Χρώμα 11001/05"));
 
         Fabric kassandra=new Fabric(R.drawable.kassandra,"KASSANDRA",kassandraColors);
 
@@ -2323,12 +2323,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> lauraColors=new ArrayList<>();
-        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230011.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230011.jpg","Color 230011","Χρώμα 230011"));
-        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230012.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230012.jpg","Color 230012","Χρώμα 230012"));
-        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230021.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230021.jpg","Color 230021","Χρώμα 230021"));
-        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230022.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230022.jpg","Color 230022","Χρώμα 230022"));
-        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230031.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230031.jpg","Color 230031","Χρώμα 230031"));
-        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230032.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230032.jpg","Color 230032","Χρώμα 230032"));
+        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230011.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230011.jpg","Color 23001/1","Χρώμα 23001/1"));
+        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230012.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230012.jpg","Color 23001/2","Χρώμα 23001/2"));
+        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230021.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230021.jpg","Color 23002/1","Χρώμα 23002/1"));
+        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230022.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230022.jpg","Color 23002/2","Χρώμα 23002/2"));
+        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230031.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230031.jpg","Color 23003/1","Χρώμα 23003/1"));
+        lauraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_laura_color_230032.jpg", Constants.FABRICS_BASE_URL+"laura/fabric_laura_color_230032.jpg","Color 23003/2","Χρώμα 23003/2"));
 
         Fabric laura=new Fabric(R.drawable.laura,"LAURA",lauraColors);
 
@@ -2342,13 +2342,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         laura.setCurtains(lauraCurtains);
 
         ArrayList<FabricColor> louisaColors=new ArrayList<>();
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_01.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_01.jpg","Color 01","Χρώμα 01"));
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_02.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_02.jpg","Color 02","Χρώμα 02"));
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_03.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_03.jpg","Color 03","Χρώμα 03"));
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_04.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_04.jpg","Color 04","Χρώμα 04"));
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_05.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_05.jpg","Color 05","Χρώμα 05"));
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_06.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_06.jpg","Color 06","Χρώμα 06"));
-        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_07.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_07.jpg","Color 07","Χρώμα 07"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_01.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_01.jpg","Color 11003/01","Χρώμα 11003/01"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_02.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_02.jpg","Color 11003/02","Χρώμα 11003/02"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_03.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_03.jpg","Color 11003/03","Χρώμα 11003/03"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_04.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_04.jpg","Color 11003/04","Χρώμα 11003/04"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_05.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_05.jpg","Color 11003/05","Χρώμα 11003/05"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_06.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_06.jpg","Color 11003/06","Χρώμα 11003/06"));
+        louisaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_louisa_color_07.jpg", Constants.FABRICS_BASE_URL+"louisa/fabric_louisa_color_07.jpg","Color 11003/07","Χρώμα 11003/07"));
 
         Fabric louisa=new Fabric(R.drawable.louisa,"LOUISA",louisaColors);
 
@@ -2364,12 +2364,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> mayaColors=new ArrayList<>();
-        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_01.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_01.jpg","Color 01","Χρώμα 01"));
-        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_02.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_02.jpg","Color 02","Χρώμα 02"));
-        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_03.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_03.jpg","Color 03","Χρώμα 03"));
-        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_04.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_04.jpg","Color 04","Χρώμα 04"));
-        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_05.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_05.jpg","Color 05","Χρώμα 05"));
-        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_06.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_06.jpg","Color 06","Χρώμα 06"));
+        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_01.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_01.jpg","Color 20006/01","Χρώμα 20006/01"));
+        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_02.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_02.jpg","Color 20006/02","Χρώμα 20006/02"));
+        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_03.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_03.jpg","Color 20006/03","Χρώμα 20006/03"));
+        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_04.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_04.jpg","Color 20006/04","Χρώμα 20006/04"));
+        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_05.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_05.jpg","Color 20006/05","Χρώμα 20006/05"));
+        mayaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_maya_color_06.jpg", Constants.FABRICS_BASE_URL+"maya/fabric_maya_color_06.jpg","Color 20006/06","Χρώμα 20006/06"));
 
         Fabric maya=new Fabric(R.drawable.maya,"maya",mayaColors);
 
@@ -2383,9 +2383,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         maya.setCurtains(mayaCurtains);
 
         ArrayList<FabricColor> melinaColors=new ArrayList<>();
-        melinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_melina_color_01.jpg", Constants.FABRICS_BASE_URL+"melina/fabric_melina_color_01.jpg","Color 01","Χρώμα 01"));
-        melinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_melina_color_02.jpg", Constants.FABRICS_BASE_URL+"melina/fabric_melina_color_02.jpg","Color 02","Χρώμα 02"));
-        melinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_melina_color_03.jpg", Constants.FABRICS_BASE_URL+"melina/fabric_melina_color_03.jpg","Color 03","Χρώμα 03"));
+        melinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_melina_color_01.jpg", Constants.FABRICS_BASE_URL+"melina/fabric_melina_color_01.jpg","Color 13006/01","Χρώμα 13006/01"));
+        melinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_melina_color_02.jpg", Constants.FABRICS_BASE_URL+"melina/fabric_melina_color_02.jpg","Color 13006/02","Χρώμα 13006/02"));
+        melinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_melina_color_03.jpg", Constants.FABRICS_BASE_URL+"melina/fabric_melina_color_03.jpg","Color 13006/03","Χρώμα 13006/03"));
 
         Fabric melina=new Fabric(R.drawable.melina,"MELINA",melinaColors);
 
@@ -2396,11 +2396,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         melina.setCurtains(melinaCurtains);
 
         ArrayList<FabricColor> patriciaColors=new ArrayList<>();
-        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_01.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_01.jpg","Color 01","Χρώμα 01"));
-        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_02.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_02.jpg","Color 02","Χρώμα 02"));
-        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_03.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_03.jpg","Color 03","Χρώμα 03"));
-        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_04.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_04.jpg","Color 04","Χρώμα 04"));
-        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_05.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_05.jpg","Color 05","Χρώμα 05"));
+        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_01.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_01.jpg","Color 12005/01","Χρώμα 12005/01"));
+        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_02.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_02.jpg","Color 12005/02","Χρώμα 12005/02"));
+        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_03.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_03.jpg","Color 12005/03","Χρώμα 12005/03"));
+        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_04.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_04.jpg","Color 12005/04","Χρώμα 12005/04"));
+        patriciaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_patricia_color_05.jpg", Constants.FABRICS_BASE_URL+"patricia/fabric_patricia_color_05.jpg","Color 12005/05","Χρώμα 12005/05"));
 
         Fabric patricia=new Fabric(R.drawable.patricia,"PATRICIA",patriciaColors);
 
@@ -2413,11 +2413,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         patricia.setCurtains(patriciaCurtains);
 
         ArrayList<FabricColor> valentinaColors=new ArrayList<>();
-        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_01.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_01.jpg","Color 01","Χρώμα 01"));
-        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_02.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_02.jpg","Color 02","Χρώμα 02"));
-        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_03.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_03.jpg","Color 03","Χρώμα 03"));
-        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_04.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_04.jpg","Color 04","Χρώμα 04"));
-        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_05.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_05.jpg","Color 05","Χρώμα 05"));
+        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_01.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_01.jpg","Color 12006/01","Χρώμα 12006/01"));
+        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_02.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_02.jpg","Color 12006/02","Χρώμα 12006/02"));
+        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_03.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_03.jpg","Color 12006/03","Χρώμα 12006/03"));
+        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_04.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_04.jpg","Color 12006/04","Χρώμα 12006/04"));
+        valentinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_valentina_color_05.jpg", Constants.FABRICS_BASE_URL+"valentina/fabric_valentina_color_05.jpg","Color 12006/05","Χρώμα 12006/05"));
 
         Fabric valentina=new Fabric(R.drawable.valentina,"VALENTINA",valentinaColors);
 
@@ -2431,10 +2431,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> victoriaColors=new ArrayList<>();
-        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_01.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_01.jpg","Color 01","Χρώμα 01"));
-        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_02.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_02.jpg","Color 02","Χρώμα 02"));
-        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_03.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_03.jpg","Color 03","Χρώμα 03"));
-        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_04.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_04.jpg","Color 04","Χρώμα 04"));
+        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_01.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_01.jpg","Color 12007/01","Χρώμα 12007/01"));
+        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_02.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_02.jpg","Color 12007/02","Χρώμα 12007/02"));
+        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_03.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_03.jpg","Color 12007/03","Χρώμα 12007/03"));
+        victoriaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_victoria_color_04.jpg", Constants.FABRICS_BASE_URL+"victoria/fabric_victoria_color_04.jpg","Color 12007/04","Χρώμα 12007/04"));
 
         Fabric victoria=new Fabric(R.drawable.victoria,"VICTORIA",victoriaColors);
 
@@ -2446,9 +2446,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         victoria.setCurtains(victoriaCurtains);
 
         ArrayList<FabricColor> vivianColors=new ArrayList<>();
-        vivianColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_vivian_color_01.jpg", Constants.FABRICS_BASE_URL+"vivian/fabric_vivian_color_01.jpg","Color 01","Χρώμα 01"));
-        vivianColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_vivian_color_02.jpg", Constants.FABRICS_BASE_URL+"vivian/fabric_vivian_color_02.jpg","Color 02","Χρώμα 02"));
-        vivianColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_vivian_color_03.jpg", Constants.FABRICS_BASE_URL+"vivian/fabric_vivian_color_03.jpg","Color 03","Χρώμα 03"));
+        vivianColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_vivian_color_01.jpg", Constants.FABRICS_BASE_URL+"vivian/fabric_vivian_color_01.jpg","Color 15001/01","Χρώμα 15001/01"));
+        vivianColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_vivian_color_02.jpg", Constants.FABRICS_BASE_URL+"vivian/fabric_vivian_color_02.jpg","Color 15001/02","Χρώμα 15001/02"));
+        vivianColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_vivian_color_03.jpg", Constants.FABRICS_BASE_URL+"vivian/fabric_vivian_color_03.jpg","Color 15001/03","Χρώμα 15001/03"));
 
         Fabric vivian=new Fabric(R.drawable.vivian,"VIVIAN",vivianColors);
 
@@ -2459,10 +2459,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         vivian.setCurtains(vivianCurtains);
 
         ArrayList<FabricColor> andriannaColors=new ArrayList<>();
-        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_01.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_01.jpg","Color 01","Χρώμα 01"));
-        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_02.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_02.jpg","Color 02","Χρώμα 02"));
-        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_03.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_03.jpg","Color 03","Χρώμα 03"));
-        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_04.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_04.jpg","Color 04","Χρώμα 04"));
+        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_01.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_01.jpg","Color 22002/01","Χρώμα 22002/01"));
+        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_02.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_02.jpg","Color 22002/02","Χρώμα 22002/02"));
+        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_03.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_03.jpg","Color 22002/03","Χρώμα 22002/03"));
+        andriannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_andrianna_color_04.jpg", Constants.FABRICS_BASE_URL+"andrianna/fabric_andrianna_color_04.jpg","Color 22002/04","Χρώμα 22002/04"));
 
         Fabric andrianna=new Fabric(R.drawable.andrianna,"ANDRIANNA",andriannaColors);
 
@@ -2474,10 +2474,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         andrianna.setCurtains(andriannaCurtains);
 
         ArrayList<FabricColor> beatriceColors=new ArrayList<>();
-        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_01.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_01.jpg","Color 01","Χρώμα 01"));
-        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_02.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_02.jpg","Color 02","Χρώμα 02"));
-        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_03.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_03.jpg","Color 03","Χρώμα 03"));
-        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_04.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_04.jpg","Color 04","Χρώμα 04"));
+        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_01.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_01.jpg","Color 22005/01","Χρώμα 22005/01"));
+        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_02.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_02.jpg","Color 22005/02","Χρώμα 22005/02"));
+        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_03.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_03.jpg","Color 22005/03","Χρώμα 22005/03"));
+        beatriceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_beatrice_color_04.jpg", Constants.FABRICS_BASE_URL+"beatrice/fabric_beatrice_color_04.jpg","Color 22005/04","Χρώμα 22005/04"));
 
         Fabric beatrice=new Fabric(R.drawable.beatrice,"BEATRICE",beatriceColors);
 
@@ -2490,14 +2490,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> daliaColors=new ArrayList<>();
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270011.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270011.jpg","Color 270011","Χρώμα 270011"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270012.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270012.jpg","Color 270012","Χρώμα 270012"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270021.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270021.jpg","Color 270021","Χρώμα 270021"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270022.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270022.jpg","Color 270022","Χρώμα 270022"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270031.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270031.jpg","Color 270031","Χρώμα 270031"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270032.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270032.jpg","Color 270032","Χρώμα 270032"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270041.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270041.jpg","Color 270041","Χρώμα 270041"));
-        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270042.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270042.jpg","Color 270042","Χρώμα 270042"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270011.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270011.jpg","Color 27001/1","Χρώμα 27001/1"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270012.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270012.jpg","Color 27001/2","Χρώμα 27001/2"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270021.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270021.jpg","Color 27002/1","Χρώμα 27002/1"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270022.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270022.jpg","Color 27002/2","Χρώμα 27002/2"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270031.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270031.jpg","Color 27003/1","Χρώμα 27003/1"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270032.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270032.jpg","Color 27003/2","Χρώμα 27003/2"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270041.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270041.jpg","Color 27004/1","Χρώμα 27004/1"));
+        daliaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_dalia_color_270042.jpg", Constants.FABRICS_BASE_URL+"dalia/fabric_dalia_color_270042.jpg","Color 27004/2","Χρώμα 27004/2"));
 
         Fabric dalia=new Fabric(R.drawable.dalia,"DALIA",daliaColors);
 
@@ -2513,10 +2513,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         dalia.setCurtains(daliaCurtains);
 
         ArrayList<FabricColor> franceskaColors=new ArrayList<>();
-        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_01.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_01.jpg","Color 01","Χρώμα 01"));
-        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_02.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_02.jpg","Color 02","Χρώμα 02"));
-        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_03.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_03.jpg","Color 03","Χρώμα 03"));
-        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_04.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_04.jpg","Color 04","Χρώμα 04"));
+        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_01.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_01.jpg","Color 22003/01","Χρώμα 22003/01"));
+        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_02.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_02.jpg","Color 22003/02","Χρώμα 22003/02"));
+        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_03.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_03.jpg","Color 22003/03","Χρώμα 22003/03"));
+        franceskaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_franceska_color_04.jpg", Constants.FABRICS_BASE_URL+"franceska/fabric_franceska_color_04.jpg","Color 22003/04","Χρώμα 22003/04"));
 
         Fabric franceska=new Fabric(R.drawable.franceska,"FRANCESKA",franceskaColors);
 
@@ -2528,12 +2528,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         franceska.setCurtains(franceskaCurtains);
 
         ArrayList<FabricColor> inkasColors=new ArrayList<>();
-        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_01.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_01.jpg","Color 01","Χρώμα 01"));
-        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_02.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_02.jpg","Color 02","Χρώμα 02"));
-        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_03.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_03.jpg","Color 03","Χρώμα 03"));
-        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_04.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_04.jpg","Color 04","Χρώμα 04"));
+        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_01.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_01.jpg","Color 13010/01","Χρώμα 13010/01"));
+        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_02.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_02.jpg","Color 13010/02","Χρώμα 13010/02"));
+        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_03.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_03.jpg","Color 13010/03","Χρώμα 13010/03"));
+        inkasColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_inkas_color_04.jpg", Constants.FABRICS_BASE_URL+"inkas/fabric_inkas_color_04.jpg","Color 13010/04","Χρώμα 13010/04"));
 
-        Fabric inkas=new Fabric(R.drawable.inkas,"INKAS",inkasColors);
+        Fabric inkas=new Fabric(R.drawable.inkas,"INCAS",inkasColors);
 
         ArrayList<String> inkasCurtains=new ArrayList<>();
         inkasCurtains.add(Constants.CURTAINS_BASE_URL+"inkas/curtain_inkas_color_01.png");
@@ -2543,11 +2543,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         inkas.setCurtains(inkasCurtains);
 
         ArrayList<FabricColor> mariettaColors=new ArrayList<>();
-        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_01.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_01.jpg","Color 01","Χρώμα 01"));
-        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_02.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_02.jpg","Color 02","Χρώμα 02"));
-        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_03.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_03.jpg","Color 03","Χρώμα 03"));
-        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_04.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_04.jpg","Color 04","Χρώμα 04"));
-        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_05.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_05.jpg","Color 05","Χρώμα 05"));
+        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_01.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_01.jpg","Color 22006/01","Χρώμα 22006/01"));
+        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_02.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_02.jpg","Color 22006/02","Χρώμα 22006/02"));
+        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_03.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_03.jpg","Color 22006/03","Χρώμα 22006/03"));
+        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_04.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_04.jpg","Color 22006/04","Χρώμα 22006/04"));
+        mariettaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_marietta_color_05.jpg", Constants.FABRICS_BASE_URL+"marietta/fabric_marietta_color_05.jpg","Color 22006/05","Χρώμα 22006/05"));
 
         Fabric marietta=new Fabric(R.drawable.marietta,"MARIETTA",mariettaColors);
 
@@ -2561,14 +2561,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         marietta.setCurtains(mariettaCurtains);
 
         ArrayList<FabricColor> nefeliColors=new ArrayList<>();
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_01.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_01.jpg","Color 01","Χρώμα 01"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_02.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_02.jpg","Color 02","Χρώμα 02"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_03.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_03.jpg","Color 03","Χρώμα 03"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_04.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_04.jpg","Color 04","Χρώμα 04"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_05.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_05.jpg","Color 05","Χρώμα 05"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_06.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_06.jpg","Color 06","Χρώμα 06"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_07.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_07.jpg","Color 07","Χρώμα 07"));
-        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_08.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_08.jpg","Color 08","Χρώμα 08"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_01.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_01.jpg","Color 15005/01","Χρώμα 15005/01"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_02.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_02.jpg","Color 15005/02","Χρώμα 15005/02"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_03.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_03.jpg","Color 15005/03","Χρώμα 15005/03"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_04.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_04.jpg","Color 15005/04","Χρώμα 15005/04"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_05.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_05.jpg","Color 15005/05","Χρώμα 15005/05"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_06.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_06.jpg","Color 15005/06","Χρώμα 15005/06"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_07.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_07.jpg","Color 15005/07","Χρώμα 15005/07"));
+        nefeliColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nefeli_color_08.jpg", Constants.FABRICS_BASE_URL+"nefeli/fabric_nefeli_color_08.jpg","Color 15005/08","Χρώμα 15005/08"));
 
         Fabric nefeli=new Fabric(R.drawable.nefeli,"NEFELI",nefeliColors);
 
@@ -2584,14 +2584,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         nefeli.setCurtains(nefeliCurtains);
 
         ArrayList<FabricColor> roxanneColors=new ArrayList<>();
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_01.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_01.jpg","Color 01","Χρώμα 01"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_02.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_02.jpg","Color 02","Χρώμα 02"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_03.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_03.jpg","Color 03","Χρώμα 03"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_04.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_04.jpg","Color 04","Χρώμα 04"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_05.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_05.jpg","Color 05","Χρώμα 05"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_06.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_06.jpg","Color 06","Χρώμα 06"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_07.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_07.jpg","Color 07","Χρώμα 07"));
-        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_08.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_08.jpg","Color 08","Χρώμα 08"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_01.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_01.jpg","Color 11011/01","Χρώμα 11011/01"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_02.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_02.jpg","Color 11011/02","Χρώμα 11011/02"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_03.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_03.jpg","Color 11011/03","Χρώμα 11011/03"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_04.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_04.jpg","Color 11011/04","Χρώμα 11011/04"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_05.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_05.jpg","Color 11011/05","Χρώμα 11011/05"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_06.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_06.jpg","Color 11011/06","Χρώμα 11011/06"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_07.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_07.jpg","Color 11011/07","Χρώμα 11011/07"));
+        roxanneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_roxanne_color_08.jpg", Constants.FABRICS_BASE_URL+"roxanne/fabric_roxanne_color_08.jpg","Color 11011/08","Χρώμα 11011/08"));
 
         Fabric roxanne=new Fabric(R.drawable.roxanne,"ROXANNE",roxanneColors);
 
@@ -2610,13 +2610,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //latest curtains
 
         ArrayList<FabricColor> adeleColors=new ArrayList<>();
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_01.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_01.jpg","Color 01","Χρώμα 01"));
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_02.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_02.jpg","Color 02","Χρώμα 02"));
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_03.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_03.jpg","Color 03","Χρώμα 03"));
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_04.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_04.jpg","Color 04","Χρώμα 04"));
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_05.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_05.jpg","Color 05","Χρώμα 05"));
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_06.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_06.jpg","Color 06","Χρώμα 06"));
-        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_07.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_07.jpg","Color 07","Χρώμα 07"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_01.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_01.jpg","Color 12013/01","Χρώμα 12013/01"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_02.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_02.jpg","Color 12013/02","Χρώμα 12013/02"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_03.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_03.jpg","Color 12013/03","Χρώμα 12013/03"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_04.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_04.jpg","Color 12013/04","Χρώμα 12013/04"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_05.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_05.jpg","Color 12013/05","Χρώμα 12013/05"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_06.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_06.jpg","Color 12013/06","Χρώμα 12013/06"));
+        adeleColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_adele_color_07.jpg", Constants.FABRICS_BASE_URL+"adele/fabric_adele_color_07.jpg","Color 12013/07","Χρώμα 12013/07"));
 
         Fabric adele=new Fabric(R.drawable.adele,"ADELE",adeleColors);
 
@@ -2631,11 +2631,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         adele.setCurtains(adeleCurtains);
 
         ArrayList<FabricColor> alkistisColors=new ArrayList<>();
-        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_01.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_01.jpg","Color 01","Χρώμα 01"));
-        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_02.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_02.jpg","Color 02","Χρώμα 02"));
-        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_03.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_03.jpg","Color 03","Χρώμα 03"));
-        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_04.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_04.jpg","Color 04","Χρώμα 04"));
-        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_05.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_05.jpg","Color 05","Χρώμα 05"));
+        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_01.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_01.jpg","Color 11013/01","Χρώμα 11013/01"));
+        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_02.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_02.jpg","Color 11013/02","Χρώμα 11013/02"));
+        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_03.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_03.jpg","Color 11013/03","Χρώμα 11013/03"));
+        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_04.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_04.jpg","Color 11013/04","Χρώμα 11013/04"));
+        alkistisColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alkistis_color_05.jpg", Constants.FABRICS_BASE_URL+"alkistis/fabric_alkistis_color_05.jpg","Color 11013/05","Χρώμα 11013/05"));
 
         Fabric alkistis=new Fabric(R.drawable.alkistis,"ALKISTIS",alkistisColors);
 
@@ -2650,9 +2650,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> ariadniColors=new ArrayList<>();
-        ariadniColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariadni_color_01.jpg", Constants.FABRICS_BASE_URL+"ariadni/fabric_ariadni_color_01.jpg","Color 01","Χρώμα 01"));
-        ariadniColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariadni_color_02.jpg", Constants.FABRICS_BASE_URL+"ariadni/fabric_ariadni_color_02.jpg","Color 02","Χρώμα 02"));
-        ariadniColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariadni_color_03.jpg", Constants.FABRICS_BASE_URL+"ariadni/fabric_ariadni_color_03.jpg","Color 03","Χρώμα 03"));
+        ariadniColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariadni_color_01.jpg", Constants.FABRICS_BASE_URL+"ariadni/fabric_ariadni_color_01.jpg","Color 26001/01","Χρώμα 26001/01"));
+        ariadniColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariadni_color_02.jpg", Constants.FABRICS_BASE_URL+"ariadni/fabric_ariadni_color_02.jpg","Color 26001/02","Χρώμα 26001/02"));
+        ariadniColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariadni_color_03.jpg", Constants.FABRICS_BASE_URL+"ariadni/fabric_ariadni_color_03.jpg","Color 26001/03","Χρώμα 26001/03"));
 
         Fabric ariadni=new Fabric(R.drawable.ariadni,"Ariadni",ariadniColors);
 
@@ -2665,12 +2665,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         ArrayList<FabricColor> arielColors=new ArrayList<>();
-        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_01.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_01.jpg","Color 01","Χρώμα 01"));
-        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_02.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_02.jpg","Color 02","Χρώμα 02"));
-        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_03.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_03.jpg","Color 03","Χρώμα 03"));
-        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_04.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_04.jpg","Color 04","Χρώμα 04"));
-        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_05.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_05.jpg","Color 05","Χρώμα 05"));
-        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_06.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_06.jpg","Color 06","Χρώμα 06"));
+        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_01.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_01.jpg","Color 12010/01","Χρώμα 12010/01"));
+        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_02.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_02.jpg","Color 12010/02","Χρώμα 12010/02"));
+        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_03.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_03.jpg","Color 12010/03","Χρώμα 12010/03"));
+        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_04.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_04.jpg","Color 12010/04","Χρώμα 12010/04"));
+        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_05.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_05.jpg","Color 12010/05","Χρώμα 12010/05"));
+        arielColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ariel_color_06.jpg", Constants.FABRICS_BASE_URL+"ariel/fabric_ariel_color_06.jpg","Color 12010/06","Χρώμα 12010/06"));
 
         Fabric ariel=new Fabric(R.drawable.ariel,"Ariel",arielColors);
 
@@ -2684,11 +2684,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ariel.setCurtains(arielCurtains);
 
         ArrayList<FabricColor> claudiaColors=new ArrayList<>();
-        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_01.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_01.jpg","Color 01","Χρώμα 01"));
-        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_02.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_02.jpg","Color 02","Χρώμα 02"));
-        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_03.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_03.jpg","Color 03","Χρώμα 03"));
-        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_04.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_04.jpg","Color 04","Χρώμα 04"));
-        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_05.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_05.jpg","Color 05","Χρώμα 05"));
+        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_01.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_01.jpg","Color 11012/01","Χρώμα 11012/01"));
+        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_02.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_02.jpg","Color 11012/02","Χρώμα 11012/02"));
+        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_03.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_03.jpg","Color 11012/03","Χρώμα 11012/03"));
+        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_04.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_04.jpg","Color 11012/04","Χρώμα 11012/04"));
+        claudiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_claudia_color_05.jpg", Constants.FABRICS_BASE_URL+"claudia/fabric_claudia_color_05.jpg","Color 11012/05","Χρώμα 11012/05"));
 
         Fabric claudia=new Fabric(R.drawable.claudia,"Claudia",claudiaColors);
 
@@ -2701,12 +2701,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         claudia.setCurtains(claudiaCurtains);
 
         ArrayList<FabricColor> gabrielaColors=new ArrayList<>();
-        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_01.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_01.jpg","Color 01","Χρώμα 01"));
-        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_02.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_02.jpg","Color 02","Χρώμα 02"));
-        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_03.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_03.jpg","Color 03","Χρώμα 03"));
-        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_04.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_04.jpg","Color 04","Χρώμα 04"));
-        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_05.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_05.jpg","Color 05","Χρώμα 05"));
-        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_06.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_06.jpg","Color 06","Χρώμα 06"));
+        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_01.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_01.jpg","Color 16006/01","Χρώμα 16006/01"));
+        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_02.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_02.jpg","Color 16006/02","Χρώμα 16006/02"));
+        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_03.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_03.jpg","Color 16006/03","Χρώμα 16006/03"));
+        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_04.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_04.jpg","Color 16006/04","Χρώμα 16006/04"));
+        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_05.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_05.jpg","Color 16006/05","Χρώμα 16006/05"));
+        gabrielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gabriela_color_06.jpg", Constants.FABRICS_BASE_URL+"gabriela/fabric_gabriela_color_06.jpg","Color 16006/06","Χρώμα 16006/06"));
 
         Fabric gabriela=new Fabric(R.drawable.gabriela,"Gabriela",gabrielaColors);
 
@@ -2720,10 +2720,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         gabriela.setCurtains(gabrielaCurtains);
 
         ArrayList<FabricColor> giovannaColors=new ArrayList<>();
-        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_01.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_01.jpg","Color 01","Χρώμα 01"));
-        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_02.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_02.jpg","Color 02","Χρώμα 02"));
-        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_03.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_03.jpg","Color 03","Χρώμα 03"));
-        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_04.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_04.jpg","Color 04","Χρώμα 04"));
+        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_01.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_01.jpg","Color 12011/01","Χρώμα 12011/01"));
+        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_02.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_02.jpg","Color 12011/02","Χρώμα 12011/02"));
+        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_03.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_03.jpg","Color 12011/03","Χρώμα 12011/03"));
+        giovannaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_giovanna_color_04.jpg", Constants.FABRICS_BASE_URL+"giovanna/fabric_giovanna_color_04.jpg","Color 12011/04","Χρώμα 12011/04"));
 
 
         Fabric giovanna=new Fabric(R.drawable.giovanna,"Giovanna",giovannaColors);
@@ -2736,11 +2736,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         giovanna.setCurtains(giovannaCurtains);
 
         ArrayList<FabricColor> matildaColors=new ArrayList<>();
-        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_01.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_01.jpg","Color 01","Χρώμα 01"));
-        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_02.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_02.jpg","Color 02","Χρώμα 02"));
-        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_03.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_03.jpg","Color 03","Χρώμα 03"));
-        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_04.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_04.jpg","Color 04","Χρώμα 04"));
-        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_05.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_05.jpg","Color 05","Χρώμα 05"));
+        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_01.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_01.jpg","Color 11009/01","Χρώμα 11009/01"));
+        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_02.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_02.jpg","Color 11009/02","Χρώμα 11009/02"));
+        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_03.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_03.jpg","Color 11009/03","Χρώμα 11009/03"));
+        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_04.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_04.jpg","Color 11009/04","Χρώμα 11009/04"));
+        matildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_matilda_color_05.jpg", Constants.FABRICS_BASE_URL+"matilda/fabric_matilda_color_05.jpg","Color 11009/05","Χρώμα 11009/05"));
 
 
         Fabric matilda=new Fabric(R.drawable.matilda,"Matilda",matildaColors);
@@ -2755,11 +2755,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         matilda.setCurtains(matildaCurtains);
 
         ArrayList<FabricColor> ornelaColors=new ArrayList<>();
-        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_01.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_01.jpg","Color 01","Χρώμα 01"));
-        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_02.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_02.jpg","Color 02","Χρώμα 02"));
-        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_03.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_03.jpg","Color 03","Χρώμα 03"));
-        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_04.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_04.jpg","Color 04","Χρώμα 04"));
-        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_05.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_05.jpg","Color 05","Χρώμα 05"));
+        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_01.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_01.jpg","Color 11010/01","Χρώμα 11010/01"));
+        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_02.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_02.jpg","Color 11010/02","Χρώμα 11010/02"));
+        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_03.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_03.jpg","Color 11010/03","Χρώμα 11010/03"));
+        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_04.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_04.jpg","Color 11010/04","Χρώμα 11010/04"));
+        ornelaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_ornela_color_05.jpg", Constants.FABRICS_BASE_URL+"ornela/fabric_ornela_color_05.jpg","Color 11010/05","Χρώμα 11010/05"));
 
         Fabric ornela=new Fabric(R.drawable.ornela,"Ornela",ornelaColors);
 
@@ -2772,9 +2772,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ornela.setCurtains(ornelaCurtains);
 
         ArrayList<FabricColor> sandyColors=new ArrayList<>();
-        sandyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_sandy_color_01.jpg", Constants.FABRICS_BASE_URL+"sandy/fabric_sandy_color_01.jpg","Color 01","Χρώμα 01"));
-        sandyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_sandy_color_02.jpg", Constants.FABRICS_BASE_URL+"sandy/fabric_sandy_color_02.jpg","Color 02","Χρώμα 02"));
-        sandyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_sandy_color_03.jpg", Constants.FABRICS_BASE_URL+"sandy/fabric_sandy_color_03.jpg","Color 03","Χρώμα 03"));
+        sandyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_sandy_color_01.jpg", Constants.FABRICS_BASE_URL+"sandy/fabric_sandy_color_01.jpg","Color 16002/01","Χρώμα 16002/01"));
+        sandyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_sandy_color_02.jpg", Constants.FABRICS_BASE_URL+"sandy/fabric_sandy_color_02.jpg","Color 16002/02","Χρώμα 16002/02"));
+        sandyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_sandy_color_03.jpg", Constants.FABRICS_BASE_URL+"sandy/fabric_sandy_color_03.jpg","Color 16002/03","Χρώμα 16002/03"));
 
         Fabric sandy=new Fabric(R.drawable.sandy,"Sandy",sandyColors);
 
@@ -2785,11 +2785,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         sandy.setCurtains(sandyCurtains);
 
         ArrayList<FabricColor> aliceColors=new ArrayList<>();
-        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_01.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_01.jpg","Color 01","Χρώμα 01"));
-        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_02.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_02.jpg","Color 02","Χρώμα 02"));
-        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_03.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_03.jpg","Color 03","Χρώμα 03"));
-        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_04.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_04.jpg","Color 04","Χρώμα 04"));
-        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_05.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_05.jpg","Color 05","Χρώμα 05"));
+        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_01.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_01.jpg","Color 11005/01","Χρώμα 11005/01"));
+        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_02.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_02.jpg","Color 11005/02","Χρώμα 11005/02"));
+        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_03.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_03.jpg","Color 11005/03","Χρώμα 11005/03"));
+        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_04.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_04.jpg","Color 11005/04","Χρώμα 11005/04"));
+        aliceColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alice_color_05.jpg", Constants.FABRICS_BASE_URL+"alice/fabric_alice_color_05.jpg","Color 11005/05","Χρώμα 11005/05"));
 
         Fabric alice=new Fabric(R.drawable.alice,"Alice",aliceColors);
 
@@ -2802,11 +2802,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         alice.setCurtains(aliceCurtains);
 
         ArrayList<FabricColor> annaColors=new ArrayList<>();
-        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_01.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_01.jpg","Color 01","Χρώμα 01"));
-        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_02.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_02.jpg","Color 02","Χρώμα 02"));
-        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_03.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_03.jpg","Color 03","Χρώμα 03"));
-        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_04.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_04.jpg","Color 04","Χρώμα 04"));
-        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_05.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_05.jpg","Color 05","Χρώμα 05"));
+        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_01.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_01.jpg","Color 14002/01","Χρώμα 14002/01"));
+        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_02.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_02.jpg","Color 14002/02","Χρώμα 14002/02"));
+        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_03.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_03.jpg","Color 14002/03","Χρώμα 14002/03"));
+        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_04.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_04.jpg","Color 14002/04","Χρώμα 14002/04"));
+        annaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anna_color_05.jpg", Constants.FABRICS_BASE_URL+"anna/fabric_anna_color_05.jpg","Color 14002/05","Χρώμα 14002/05"));
 
         Fabric anna=new Fabric(R.drawable.anna,"Anna",annaColors);
 
@@ -2818,6 +2818,196 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         annaCurtains.add(Constants.CURTAINS_BASE_URL+"anna/curtain_anna_color_05.png");
         anna.setCurtains(annaCurtains);
 
+
+
+        ArrayList<FabricColor> armoniaColors=new ArrayList<>();
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_01.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_01.jpg","Color 11007/01","Χρώμα 11007/01"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_02.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_02.jpg","Color 11007/02","Χρώμα 11007/02"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_03.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_03.jpg","Color 11007/03","Χρώμα 11007/03"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_04.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_04.jpg","Color 11007/04","Χρώμα 11007/04"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_05.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_05.jpg","Color 11007/05","Χρώμα 11007/05"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_06.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_06.jpg","Color 11007/06","Χρώμα 11007/06"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_07.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_07.jpg","Color 11007/07","Χρώμα 11007/07"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_08.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_08.jpg","Color 11007/08","Χρώμα 11007/08"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_09.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_09.jpg","Color 11007/09","Χρώμα 11007/09"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_10.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_10.jpg","Color 11007/10","Χρώμα 11007/10"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_11.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_11.jpg","Color 11007/11","Χρώμα 11007/11"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_12.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_12.jpg","Color 11007/12","Χρώμα 11007/12"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_13.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_13.jpg","Color 11007/13","Χρώμα 11007/13"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_14.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_14.jpg","Color 11007/14","Χρώμα 11007/14"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_15.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_15.jpg","Color 11007/15","Χρώμα 11007/15"));
+        armoniaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_armonia_color_16.jpg", Constants.FABRICS_BASE_URL+"armonia/fabric_armonia_color_16.jpg","Color 11007/16","Χρώμα 11007/16"));
+
+        Fabric armonia=new Fabric(R.drawable.armonia,"ARMONIA",armoniaColors);
+
+        ArrayList<String> armoniaCurtains=new ArrayList<>();
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_01.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_02.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_03.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_04.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_05.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_06.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_07.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_08.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_09.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_10.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_11.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_12.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_13.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_14.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_15.png");
+        armoniaCurtains.add(Constants.CURTAINS_BASE_URL+"armonia/curtain_armonia_color_16.png");
+        armonia.setCurtains(armoniaCurtains);
+
+        ArrayList<FabricColor> athenaColors=new ArrayList<>();
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_01.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_01.jpg","Color 14006/01","Χρώμα 14006/01"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_02.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_02.jpg","Color 14006/02","Χρώμα 14006/02"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_03.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_03.jpg","Color 14006/03","Χρώμα 14006/03"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_04.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_04.jpg","Color 14006/04","Χρώμα 14006/04"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_05.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_05.jpg","Color 14006/05","Χρώμα 14006/05"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_06.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_06.jpg","Color 14006/06","Χρώμα 14006/06"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_07.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_07.jpg","Color 14006/07","Χρώμα 14006/07"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_08.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_08.jpg","Color 14006/08","Χρώμα 14006/08"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_09.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_09.jpg","Color 14006/09","Χρώμα 14006/09"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_10.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_10.jpg","Color 14006/10","Χρώμα 14006/10"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_11.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_11.jpg","Color 14006/11","Χρώμα 14006/11"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_12.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_12.jpg","Color 14006/12","Χρώμα 14006/12"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_13.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_13.jpg","Color 14006/13","Χρώμα 14006/13"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_14.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_14.jpg","Color 14006/14","Χρώμα 14006/14"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_15.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_15.jpg","Color 14006/15","Χρώμα 14006/15"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_16.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_16.jpg","Color 14006/16","Χρώμα 14006/16"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_17.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_17.jpg","Color 14006/17","Χρώμα 14006/17"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_18.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_18.jpg","Color 14006/18","Χρώμα 14006/18"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_19.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_19.jpg","Color 14006/19","Χρώμα 14006/19"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_20.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_20.jpg","Color 14006/20","Χρώμα 14006/20"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_21.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_21.jpg","Color 14006/21","Χρώμα 14006/21"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_22.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_22.jpg","Color 14006/22","Χρώμα 14006/22"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_23.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_23.jpg","Color 14006/23","Χρώμα 14006/23"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_24.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_24.jpg","Color 14006/24","Χρώμα 14006/24"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_25.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_25.jpg","Color 14006/25","Χρώμα 14006/25"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_26.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_26.jpg","Color 14006/26","Χρώμα 14006/26"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_27.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_27.jpg","Color 14006/27","Χρώμα 14006/27"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_28.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_28.jpg","Color 14006/28","Χρώμα 14006/28"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_29.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_29.jpg","Color 14006/29","Χρώμα 14006/29"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_30.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_30.jpg","Color 14006/30","Χρώμα 14006/30"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_31.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_31.jpg","Color 14006/31","Χρώμα 14006/31"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_32.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_32.jpg","Color 14006/32","Χρώμα 14006/32"));
+        athenaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_athena_color_33.jpg", Constants.FABRICS_BASE_URL+"athena/fabric_athena_color_33.jpg","Color 14006/33","Χρώμα 14006/33"));
+
+
+        Fabric athena=new Fabric(R.drawable.athena,"ATHENA",athenaColors);
+
+        ArrayList<String> athenaCurtains=new ArrayList<>();
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_01.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_02.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_03.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_04.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_05.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_06.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_07.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_08.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_09.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_10.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_11.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_12.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_13.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_14.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_15.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_16.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_17.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_18.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_19.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_20.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_21.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_22.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_23.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_24.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_25.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_26.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_27.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_28.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_29.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_30.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_31.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_32.png");
+        athenaCurtains.add(Constants.CURTAINS_BASE_URL+"athena/curtain_athena_color_33.png");
+        athena.setCurtains(athenaCurtains);
+
+
+        ArrayList<FabricColor> eleonoraColors=new ArrayList<>();
+        eleonoraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eleonora_color_01.jpg", Constants.FABRICS_BASE_URL+"eleonora/fabric_eleonora_color_01.jpg","Color 13001/01","Χρώμα 13001/01"));
+        eleonoraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eleonora_color_02.jpg", Constants.FABRICS_BASE_URL+"eleonora/fabric_eleonora_color_02.jpg","Color 13001/02","Χρώμα 13001/02"));
+        eleonoraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eleonora_color_03.jpg", Constants.FABRICS_BASE_URL+"eleonora/fabric_eleonora_color_03.jpg","Color 13001/03","Χρώμα 13001/03"));
+        eleonoraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eleonora_color_04.jpg", Constants.FABRICS_BASE_URL+"eleonora/fabric_eleonora_color_04.jpg","Color 13001/04","Χρώμα 13001/04"));
+        eleonoraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eleonora_color_05.jpg", Constants.FABRICS_BASE_URL+"eleonora/fabric_eleonora_color_05.jpg","Color 13001/05","Χρώμα 13001/05"));
+        eleonoraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_eleonora_color_06.jpg", Constants.FABRICS_BASE_URL+"eleonora/fabric_eleonora_color_06.jpg","Color 13001/06","Χρώμα 13001/06"));
+
+
+        Fabric eleonora=new Fabric(R.drawable.eleonora,"ELEONORA",eleonoraColors);
+
+        ArrayList<String> eleonoraCurtains=new ArrayList<>();
+        eleonoraCurtains.add(Constants.CURTAINS_BASE_URL+"eleonora/curtain_eleonora_color_01.png");
+        eleonoraCurtains.add(Constants.CURTAINS_BASE_URL+"eleonora/curtain_eleonora_color_02.png");
+        eleonoraCurtains.add(Constants.CURTAINS_BASE_URL+"eleonora/curtain_eleonora_color_03.png");
+        eleonoraCurtains.add(Constants.CURTAINS_BASE_URL+"eleonora/curtain_eleonora_color_04.png");
+        eleonoraCurtains.add(Constants.CURTAINS_BASE_URL+"eleonora/curtain_eleonora_color_05.png");
+        eleonoraCurtains.add(Constants.CURTAINS_BASE_URL+"eleonora/curtain_eleonora_color_06.png");
+        eleonora.setCurtains(eleonoraCurtains);
+
+        ArrayList<FabricColor> erikaColors=new ArrayList<>();
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_01.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_01.jpg","Color 20008/01","Χρώμα 20008/01"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_02.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_02.jpg","Color 20008/02","Χρώμα 20008/02"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_03.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_03.jpg","Color 20008/03","Χρώμα 20008/03"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_04.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_04.jpg","Color 20008/04","Χρώμα 20008/04"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_05.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_05.jpg","Color 20008/05","Χρώμα 20008/05"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_06.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_06.jpg","Color 20008/06","Χρώμα 20008/06"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_07.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_07.jpg","Color 20008/07","Χρώμα 20008/07"));
+        erikaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_erika_color_08.jpg", Constants.FABRICS_BASE_URL+"erika/fabric_erika_color_08.jpg","Color 20008/08","Χρώμα 20008/08"));
+
+
+        Fabric erika=new Fabric(R.drawable.erika,"ERIKA",erikaColors);
+
+        ArrayList<String> erikaCurtains=new ArrayList<>();
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_01.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_02.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_03.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_04.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_05.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_06.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_07.png");
+        erikaCurtains.add(Constants.CURTAINS_BASE_URL+"erika/curtain_erika_color_08.png");
+        erika.setCurtains(erikaCurtains);
+
+        ArrayList<FabricColor> floraColors=new ArrayList<>();
+        floraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_flora_color_01.jpg", Constants.FABRICS_BASE_URL+"flora/fabric_flora_color_01.jpg","Color 15004/01","Χρώμα 15004/01"));
+        floraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_flora_color_02.jpg", Constants.FABRICS_BASE_URL+"flora/fabric_flora_color_02.jpg","Color 15004/02","Χρώμα 15004/02"));
+        floraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_flora_color_03.jpg", Constants.FABRICS_BASE_URL+"flora/fabric_flora_color_03.jpg","Color 15004/03","Χρώμα 15004/03"));
+
+        Fabric flora=new Fabric(R.drawable.flora,"FLORA",floraColors);
+
+        ArrayList<String> floraCurtains=new ArrayList<>();
+        floraCurtains.add(Constants.CURTAINS_BASE_URL+"flora/curtain_flora_color_01.png");
+        floraCurtains.add(Constants.CURTAINS_BASE_URL+"flora/curtain_flora_color_02.png");
+        floraCurtains.add(Constants.CURTAINS_BASE_URL+"flora/curtain_flora_color_03.png");
+        flora.setCurtains(floraCurtains);
+
+
+        ArrayList<FabricColor> irinaColors=new ArrayList<>();
+        irinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_irina_color_01.jpg", Constants.FABRICS_BASE_URL+"irina/fabric_irina_color_01.jpg","Color 12003/01","Χρώμα 12003/01"));
+        irinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_irina_color_02.jpg", Constants.FABRICS_BASE_URL+"irina/fabric_irina_color_02.jpg","Color 12003/02","Χρώμα 12003/02"));
+        irinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_irina_color_03.jpg", Constants.FABRICS_BASE_URL+"irina/fabric_irina_color_03.jpg","Color 12003/03","Χρώμα 12003/03"));
+        irinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_irina_color_04.jpg", Constants.FABRICS_BASE_URL+"irina/fabric_irina_color_04.jpg","Color 12003/04","Χρώμα 12003/04"));
+        irinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_irina_color_05.jpg", Constants.FABRICS_BASE_URL+"irina/fabric_irina_color_05.jpg","Color 12003/05","Χρώμα 12003/05"));
+
+        Fabric irina=new Fabric(R.drawable.irina,"IRINA",irinaColors);
+
+        ArrayList<String> irinaCurtains=new ArrayList<>();
+        irinaCurtains.add(Constants.CURTAINS_BASE_URL+"irina/curtain_irina_color_01.png");
+        irinaCurtains.add(Constants.CURTAINS_BASE_URL+"irina/curtain_irina_color_02.png");
+        irinaCurtains.add(Constants.CURTAINS_BASE_URL+"irina/curtain_irina_color_03.png");
+        irinaCurtains.add(Constants.CURTAINS_BASE_URL+"irina/curtain_irina_color_04.png");
+        irinaCurtains.add(Constants.CURTAINS_BASE_URL+"irina/curtain_irina_color_05.png");
+        irina.setCurtains(irinaCurtains);
 
 
         indoorFabrics.add(atlantis);
@@ -2913,6 +3103,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         curtainFabrics.add(sandy);
         curtainFabrics.add(alice);
         curtainFabrics.add(anna);
+        curtainFabrics.add(armonia);
+        curtainFabrics.add(athena);
+        curtainFabrics.add(eleonora);
+        curtainFabrics.add(erika);
+        curtainFabrics.add(flora);
+        curtainFabrics.add(irina);
+
 
 
         fabricTypes=new ArrayList<>();
