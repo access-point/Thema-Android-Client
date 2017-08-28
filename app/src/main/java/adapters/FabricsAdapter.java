@@ -62,7 +62,7 @@ public class FabricsAdapter extends RecyclerView.Adapter<FabricsAdapter.ViewHold
             params.setMargins(0, 0, 0, 0);
             ((FrameLayout) viewHolder.getBackgroundImage().getParent()).setLayoutParams(params);
         }
-        viewHolder.getTextView().setText(fabrics.get(position).getTitle());
+        viewHolder.getTextView().setText(fabrics.get(position).getTitle().toUpperCase());
 
         // # CAUTION:
         // Important to call this method
