@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Typeface;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -17,6 +18,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.flaviofaria.kenburnsview.KenBurnsView;
 import com.flaviofaria.kenburnsview.RandomTransitionGenerator;
 
@@ -139,8 +141,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         RandomTransitionGenerator generator = new RandomTransitionGenerator(19000, new LinearInterpolator());
         ken.setTransitionGenerator(generator);
 
+        clearCache();
         initData();
         getInitJson();
+    }
+
+    public void clearCache () {
+        if (!prefs.getBoolean("clear1",false)) {
+            prefs.edit().putBoolean("clear1",true).commit();
+            AsyncTask.execute(new Runnable() {
+                @Override
+                public void run() {
+                    Glide.get(MainActivity.this).clearDiskCache();
+                }
+            });
+        }
+
     }
 
 
@@ -3867,6 +3883,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ameliaCurtains.add(Constants.CURTAINS_BASE_URL+"amelia/curtain_amelia_color_27.png");
         ameliaCurtains.add(Constants.CURTAINS_BASE_URL+"amelia/curtain_amelia_color_28.png");
         ameliaCurtains.add(Constants.CURTAINS_BASE_URL+"amelia/curtain_amelia_color_29.png");
+
+        amelia.setCurtains(ameliaCurtains);
 
         ArrayList<FabricColor> deboraColors=new ArrayList<>();
         deboraColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_debora_color_01.jpg", Constants.FABRICS_BASE_URL+"debora/fabric_debora_color_01.jpg","Color 11015/01","Χρώμα 11015/01"));

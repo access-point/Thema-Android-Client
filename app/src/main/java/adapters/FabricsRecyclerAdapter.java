@@ -46,7 +46,7 @@ public class FabricsRecyclerAdapter extends RecyclerView.Adapter<FabricsRecycler
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
         Fabric fabric = fabrics.get(position);
-        holder.title.setText(fabric.getTitle());
+        holder.title.setText(fabric.getTitle().toUpperCase());
         holder.img.setImageResource(fabric.getImageId());
     }
 
