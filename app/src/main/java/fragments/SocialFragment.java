@@ -56,6 +56,11 @@ public class SocialFragment extends Fragment {
                                 Uri.parse("https://www.facebook.com/themasofa/"));
                         startActivity(intent);
                         break;
+                    case R.drawable.instagram :
+                        intent = new Intent(android.content.Intent.ACTION_VIEW,
+                                Uri.parse("https://www.instagram.com/thema_sofa_window/"));
+                        startActivity(intent);
+                        break;
                     default :
                         Toast.makeText(getActivity(),getString(R.string.coming_soon),Toast.LENGTH_SHORT).show();
                         break;
