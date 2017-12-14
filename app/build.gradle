@@ -8,8 +8,8 @@ android {
         applicationId "creativedays.com.dilzas"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 11
-        versionName "1.5.1"
+        versionCode 12
+        versionName "1.5.2"
         manifestPlaceholders = [onesignal_app_id: "88d07b1c-e63f-4e7f-9f94-eca70c0a82b1",
                                 // Project number pulled from dashboard, local value is ignored.
                                 onesignal_google_project_number: "696542288647"]

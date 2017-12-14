@@ -456,7 +456,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_13.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_13.jpg","Color 13","Χρώμα 13"));
         aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_101.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_101.jpg","Color 101","Χρώμα 101"));
         aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_104.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_104.jpg","Color 104","Χρώμα 104"));
-        aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_2130.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_2130.jpg","Color 2130","Χρώμα 2130"));
+        aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_2130.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_2130.jpg","Color 110","Χρώμα 110"));
         aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_109.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_109.jpg","Color 109","Χρώμα 109"));
         aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_102.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_102.jpg","Color 102","Χρώμα 102"));
         aegeanColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_aegean_color_103.jpg",Constants.FABRICS_BASE_URL+"aegean/fabric_aegean_color_103.jpg","Color 103","Χρώμα 103"));
@@ -4011,7 +4011,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         danielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daniela_color_04.jpg", Constants.FABRICS_BASE_URL+"daniela/fabric_daniela_color_04.jpg","Color 22004/04","Χρώμα 22004/04"));
         danielaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daniela_color_05.jpg", Constants.FABRICS_BASE_URL+"daniela/fabric_daniela_color_05.jpg","Color 22004/05","Χρώμα 22004/05"));
 
-        Fabric daniela=new Fabric(R.drawable.daniela,"DANIELA",danielaColors);
+        Fabric daniela=new Fabric(R.drawable.daniela,"DANIELLA",danielaColors);
 
         ArrayList<String> danielaCurtains=new ArrayList<>();
         danielaCurtains.add(Constants.CURTAINS_BASE_URL+"daniela/curtain_daniela_color_01.png");
@@ -4041,6 +4041,427 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         doloresCurtains.add(Constants.CURTAINS_BASE_URL+"dolores/curtain_dolores_color_06.png");
 
         dolores.setCurtains(doloresCurtains);
+
+        ArrayList<FabricColor> albertaColors=new ArrayList<>();
+        albertaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alberta_color_01.jpg", Constants.FABRICS_BASE_URL+"alberta/fabric_alberta_color_01.jpg","Color 11016/01","Χρώμα 11016/01"));
+        albertaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alberta_color_02.jpg", Constants.FABRICS_BASE_URL+"alberta/fabric_alberta_color_02.jpg","Color 11016/02","Χρώμα 11016/02"));
+        albertaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alberta_color_03.jpg", Constants.FABRICS_BASE_URL+"alberta/fabric_alberta_color_03.jpg","Color 11016/03","Χρώμα 11016/03"));
+        albertaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alberta_color_04.jpg", Constants.FABRICS_BASE_URL+"alberta/fabric_alberta_color_04.jpg","Color 11016/04","Χρώμα 11016/04"));
+        albertaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alberta_color_05.jpg", Constants.FABRICS_BASE_URL+"alberta/fabric_alberta_color_05.jpg","Color 11016/05","Χρώμα 11016/05"));
+
+        Fabric alberta=new Fabric(R.drawable.alberta,"ALBERTA",albertaColors);
+
+        ArrayList<String> albertaCurtains=new ArrayList<>();
+        albertaCurtains.add(Constants.CURTAINS_BASE_URL+"alberta/curtain_alberta_color_01.png");
+        albertaCurtains.add(Constants.CURTAINS_BASE_URL+"alberta/curtain_alberta_color_02.png");
+        albertaCurtains.add(Constants.CURTAINS_BASE_URL+"alberta/curtain_alberta_color_03.png");
+        albertaCurtains.add(Constants.CURTAINS_BASE_URL+"alberta/curtain_alberta_color_04.png");
+        albertaCurtains.add(Constants.CURTAINS_BASE_URL+"alberta/curtain_alberta_color_05.png");
+
+        alberta.setCurtains(albertaCurtains);
+
+
+        ArrayList<FabricColor> celiaColors=new ArrayList<>();
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_01.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_01.jpg","Color 11017/01","Χρώμα 11017/01"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_02.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_02.jpg","Color 11017/02","Χρώμα 11017/02"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_03.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_03.jpg","Color 11017/03","Χρώμα 11017/03"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_04.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_04.jpg","Color 11017/04","Χρώμα 11017/04"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_05.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_05.jpg","Color 11017/05","Χρώμα 11017/05"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_06.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_06.jpg","Color 11017/06","Χρώμα 11017/06"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_07.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_07.jpg","Color 11017/07","Χρώμα 11017/07"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_08.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_08.jpg","Color 11017/08","Χρώμα 11017/08"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_09.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_09.jpg","Color 11017/09","Χρώμα 11017/09"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_10.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_10.jpg","Color 11017/10","Χρώμα 11017/10"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_11.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_11.jpg","Color 11017/11","Χρώμα 11017/11"));
+        celiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_celia_color_12.jpg", Constants.FABRICS_BASE_URL+"celia/fabric_celia_color_12.jpg","Color 11017/12","Χρώμα 11017/12"));
+
+        Fabric celia=new Fabric(R.drawable.celia,"celia",celiaColors);
+
+        ArrayList<String> celiaCurtains=new ArrayList<>();
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_01.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_02.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_03.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_04.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_05.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_06.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_07.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_08.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_09.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_10.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_11.png");
+        celiaCurtains.add(Constants.CURTAINS_BASE_URL+"celia/curtain_celia_color_12.png");
+
+
+        celia.setCurtains(celiaCurtains);
+
+
+        ArrayList<FabricColor> oliviaColors=new ArrayList<>();
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_01.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_01.jpg","Color 11018/01","Χρώμα 11018/01"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_02.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_02.jpg","Color 11018/02","Χρώμα 11018/02"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_03.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_03.jpg","Color 11018/03","Χρώμα 11018/03"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_04.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_04.jpg","Color 11018/04","Χρώμα 11018/04"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_05.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_05.jpg","Color 11018/05","Χρώμα 11018/05"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_06.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_06.jpg","Color 11018/06","Χρώμα 11018/06"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_07.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_07.jpg","Color 11018/07","Χρώμα 11018/07"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_08.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_08.jpg","Color 11018/08","Χρώμα 11018/08"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_09.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_09.jpg","Color 11018/09","Χρώμα 11018/09"));
+        oliviaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_olivia_color_10.jpg", Constants.FABRICS_BASE_URL+"olivia/fabric_olivia_color_10.jpg","Color 11018/10","Χρώμα 11018/10"));
+
+
+        Fabric olivia=new Fabric(R.drawable.olivia,"OLIVIA",oliviaColors);
+
+        ArrayList<String> oliviaCurtains=new ArrayList<>();
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_01.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_02.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_03.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_04.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_05.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_06.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_07.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_08.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_09.png");
+        oliviaCurtains.add(Constants.CURTAINS_BASE_URL+"olivia/curtain_olivia_color_10.png");
+
+        olivia.setCurtains(oliviaCurtains);
+
+        ArrayList<FabricColor> calistaColors=new ArrayList<>();
+        calistaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_calista_color_01.jpg", Constants.FABRICS_BASE_URL+"calista/fabric_calista_color_01.jpg","Color 11019/01","Χρώμα 11019/01"));
+        calistaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_calista_color_02.jpg", Constants.FABRICS_BASE_URL+"calista/fabric_calista_color_02.jpg","Color 11019/02","Χρώμα 11019/02"));
+        calistaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_calista_color_03.jpg", Constants.FABRICS_BASE_URL+"calista/fabric_calista_color_03.jpg","Color 11019/03","Χρώμα 11019/03"));
+
+        Fabric calista=new Fabric(R.drawable.calista,"CALISTA",calistaColors);
+
+        ArrayList<String> calistaCurtains=new ArrayList<>();
+        calistaCurtains.add(Constants.CURTAINS_BASE_URL+"calista/curtain_calista_color_01.png");
+        calistaCurtains.add(Constants.CURTAINS_BASE_URL+"calista/curtain_calista_color_02.png");
+        calistaCurtains.add(Constants.CURTAINS_BASE_URL+"calista/curtain_calista_color_03.png");
+
+        calista.setCurtains(calistaCurtains);
+
+        ArrayList<FabricColor> daisyColors=new ArrayList<>();
+        daisyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daisy_color_01.jpg", Constants.FABRICS_BASE_URL+"daisy/fabric_daisy_color_01.jpg","Color 13017/01","Χρώμα 13017/01"));
+        daisyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daisy_color_02.jpg", Constants.FABRICS_BASE_URL+"daisy/fabric_daisy_color_02.jpg","Color 13017/02","Χρώμα 13017/02"));
+        daisyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daisy_color_03.jpg", Constants.FABRICS_BASE_URL+"daisy/fabric_daisy_color_03.jpg","Color 13017/03","Χρώμα 13017/03"));
+        daisyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daisy_color_04.jpg", Constants.FABRICS_BASE_URL+"daisy/fabric_daisy_color_04.jpg","Color 13017/04","Χρώμα 13017/04"));
+        daisyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daisy_color_05.jpg", Constants.FABRICS_BASE_URL+"daisy/fabric_daisy_color_05.jpg","Color 13017/05","Χρώμα 13017/05"));
+
+        Fabric daisy=new Fabric(R.drawable.daisy,"DAISY",daisyColors);
+
+        ArrayList<String> daisyCurtains=new ArrayList<>();
+        daisyCurtains.add(Constants.CURTAINS_BASE_URL+"daisy/curtain_daisy_color_01.png");
+        daisyCurtains.add(Constants.CURTAINS_BASE_URL+"daisy/curtain_daisy_color_02.png");
+        daisyCurtains.add(Constants.CURTAINS_BASE_URL+"daisy/curtain_daisy_color_03.png");
+        daisyCurtains.add(Constants.CURTAINS_BASE_URL+"daisy/curtain_daisy_color_04.png");
+        daisyCurtains.add(Constants.CURTAINS_BASE_URL+"daisy/curtain_daisy_color_05.png");
+
+        daisy.setCurtains(daisyCurtains);
+
+        ArrayList<FabricColor> alisonColors=new ArrayList<>();
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_01.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_01.jpg","Color 13018/01","Χρώμα 13018/01"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_02.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_02.jpg","Color 13018/02","Χρώμα 13018/02"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_03.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_03.jpg","Color 13018/03","Χρώμα 13018/03"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_04.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_04.jpg","Color 13018/04","Χρώμα 13018/04"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_05.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_05.jpg","Color 13018/05","Χρώμα 13018/05"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_06.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_06.jpg","Color 13018/06","Χρώμα 13018/06"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_07.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_07.jpg","Color 13018/07","Χρώμα 13018/07"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_08.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_08.jpg","Color 13018/08","Χρώμα 13018/08"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_09.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_09.jpg","Color 13018/09","Χρώμα 13018/09"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_10.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_10.jpg","Color 13018/10","Χρώμα 13018/10"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_11.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_11.jpg","Color 13018/11","Χρώμα 13018/11"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_12.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_12.jpg","Color 13018/12","Χρώμα 13018/12"));
+        alisonColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alison_color_13.jpg", Constants.FABRICS_BASE_URL+"alison/fabric_alison_color_13.jpg","Color 13018/13","Χρώμα 13018/13"));
+
+        Fabric alison=new Fabric(R.drawable.alison,"ALISON",alisonColors);
+
+        ArrayList<String> alisonCurtains=new ArrayList<>();
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_01.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_02.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_03.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_04.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_05.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_06.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_07.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_08.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_09.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_10.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_11.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_12.png");
+        alisonCurtains.add(Constants.CURTAINS_BASE_URL+"alison/curtain_alison_color_13.png");
+
+
+        alison.setCurtains(alisonCurtains);
+
+        ArrayList<FabricColor> biancaColors=new ArrayList<>();
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_01.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_01.jpg","Color 13019/01","Χρώμα 13019/01"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_02.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_02.jpg","Color 13019/02","Χρώμα 13019/02"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_03.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_03.jpg","Color 13019/03","Χρώμα 13019/03"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_04.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_04.jpg","Color 13019/04","Χρώμα 13019/04"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_05.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_05.jpg","Color 13019/05","Χρώμα 13019/05"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_06.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_06.jpg","Color 13019/06","Χρώμα 13019/06"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_07.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_07.jpg","Color 13019/07","Χρώμα 13019/07"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_08.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_08.jpg","Color 13019/08","Χρώμα 13019/08"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_09.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_09.jpg","Color 13019/09","Χρώμα 13019/09"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_10.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_10.jpg","Color 13019/10","Χρώμα 13019/10"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_11.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_11.jpg","Color 13019/11","Χρώμα 13019/11"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_12.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_12.jpg","Color 13019/12","Χρώμα 13019/12"));
+        biancaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_bianca_color_13.jpg", Constants.FABRICS_BASE_URL+"bianca/fabric_bianca_color_13.jpg","Color 13019/13","Χρώμα 13019/13"));
+
+        Fabric bianca=new Fabric(R.drawable.bianca,"BIANCA",biancaColors);
+
+        ArrayList<String> biancaCurtains=new ArrayList<>();
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_01.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_02.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_03.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_04.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_05.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_06.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_07.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_08.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_09.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_10.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_11.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_12.png");
+        biancaCurtains.add(Constants.CURTAINS_BASE_URL+"bianca/curtain_bianca_color_13.png");
+
+
+        bianca.setCurtains(biancaCurtains);
+
+        ArrayList<FabricColor> anabelColors=new ArrayList<>();
+        anabelColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anabel_color_01.jpg", Constants.FABRICS_BASE_URL+"anabel/fabric_anabel_color_01.jpg","Color 15012/01","Χρώμα 15012/01"));
+        anabelColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anabel_color_02.jpg", Constants.FABRICS_BASE_URL+"anabel/fabric_anabel_color_02.jpg","Color 15012/02","Χρώμα 15012/02"));
+        anabelColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anabel_color_03.jpg", Constants.FABRICS_BASE_URL+"anabel/fabric_anabel_color_03.jpg","Color 15012/03","Χρώμα 15012/03"));
+        anabelColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anabel_color_04.jpg", Constants.FABRICS_BASE_URL+"anabel/fabric_anabel_color_04.jpg","Color 15012/04","Χρώμα 15012/04"));
+        anabelColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anabel_color_05.jpg", Constants.FABRICS_BASE_URL+"anabel/fabric_anabel_color_05.jpg","Color 15012/05","Χρώμα 15012/05"));
+
+
+        Fabric anabel=new Fabric(R.drawable.anabel,"ANABEL",anabelColors);
+
+        ArrayList<String> anabelCurtains=new ArrayList<>();
+        anabelCurtains.add(Constants.CURTAINS_BASE_URL+"anabel/curtain_anabel_color_01.png");
+        anabelCurtains.add(Constants.CURTAINS_BASE_URL+"anabel/curtain_anabel_color_02.png");
+        anabelCurtains.add(Constants.CURTAINS_BASE_URL+"anabel/curtain_anabel_color_03.png");
+        anabelCurtains.add(Constants.CURTAINS_BASE_URL+"anabel/curtain_anabel_color_04.png");
+        anabelCurtains.add(Constants.CURTAINS_BASE_URL+"anabel/curtain_anabel_color_05.png");
+
+
+        anabel.setCurtains(anabelCurtains);
+
+        ArrayList<FabricColor> nancyColors=new ArrayList<>();
+        nancyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nancy_color_01.jpg", Constants.FABRICS_BASE_URL+"nancy/fabric_nancy_color_01.jpg","Color 16009/01","Χρώμα 16009/01"));
+        nancyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nancy_color_02.jpg", Constants.FABRICS_BASE_URL+"nancy/fabric_nancy_color_02.jpg","Color 16009/02","Χρώμα 16009/02"));
+        nancyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nancy_color_03.jpg", Constants.FABRICS_BASE_URL+"nancy/fabric_nancy_color_03.jpg","Color 16009/03","Χρώμα 16009/03"));
+        nancyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nancy_color_04.jpg", Constants.FABRICS_BASE_URL+"nancy/fabric_nancy_color_04.jpg","Color 16009/04","Χρώμα 16009/04"));
+        nancyColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_nancy_color_05.jpg", Constants.FABRICS_BASE_URL+"nancy/fabric_nancy_color_05.jpg","Color 16009/05","Χρώμα 16009/05"));
+
+
+        Fabric nancy=new Fabric(R.drawable.nancy,"NANCY",nancyColors);
+
+        ArrayList<String> nancyCurtains=new ArrayList<>();
+        nancyCurtains.add(Constants.CURTAINS_BASE_URL+"nancy/curtain_nancy_color_01.png");
+        nancyCurtains.add(Constants.CURTAINS_BASE_URL+"nancy/curtain_nancy_color_02.png");
+        nancyCurtains.add(Constants.CURTAINS_BASE_URL+"nancy/curtain_nancy_color_03.png");
+        nancyCurtains.add(Constants.CURTAINS_BASE_URL+"nancy/curtain_nancy_color_04.png");
+        nancyCurtains.add(Constants.CURTAINS_BASE_URL+"nancy/curtain_nancy_color_05.png");
+
+
+        nancy.setCurtains(nancyCurtains);
+
+        ArrayList<FabricColor> leticiaColors=new ArrayList<>();
+        leticiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_leticia_color_01.jpg", Constants.FABRICS_BASE_URL+"leticia/fabric_leticia_color_01.jpg","Color 16010/01","Χρώμα 16010/01"));
+        leticiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_leticia_color_02.jpg", Constants.FABRICS_BASE_URL+"leticia/fabric_leticia_color_02.jpg","Color 16010/02","Χρώμα 16010/02"));
+        leticiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_leticia_color_03.jpg", Constants.FABRICS_BASE_URL+"leticia/fabric_leticia_color_03.jpg","Color 16010/03","Χρώμα 16010/03"));
+        leticiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_leticia_color_04.jpg", Constants.FABRICS_BASE_URL+"leticia/fabric_leticia_color_04.jpg","Color 16010/04","Χρώμα 16010/04"));
+        leticiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_leticia_color_05.jpg", Constants.FABRICS_BASE_URL+"leticia/fabric_leticia_color_05.jpg","Color 16010/05","Χρώμα 16010/05"));
+        leticiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_leticia_color_06.jpg", Constants.FABRICS_BASE_URL+"leticia/fabric_leticia_color_06.jpg","Color 16010/06","Χρώμα 16010/06"));
+
+
+        Fabric leticia=new Fabric(R.drawable.leticia,"LETICIA",leticiaColors);
+
+        ArrayList<String> leticiaCurtains=new ArrayList<>();
+        leticiaCurtains.add(Constants.CURTAINS_BASE_URL+"leticia/curtain_leticia_color_01.png");
+        leticiaCurtains.add(Constants.CURTAINS_BASE_URL+"leticia/curtain_leticia_color_02.png");
+        leticiaCurtains.add(Constants.CURTAINS_BASE_URL+"leticia/curtain_leticia_color_03.png");
+        leticiaCurtains.add(Constants.CURTAINS_BASE_URL+"leticia/curtain_leticia_color_04.png");
+        leticiaCurtains.add(Constants.CURTAINS_BASE_URL+"leticia/curtain_leticia_color_05.png");
+        leticiaCurtains.add(Constants.CURTAINS_BASE_URL+"leticia/curtain_leticia_color_06.png");
+
+
+        leticia.setCurtains(leticiaCurtains);
+
+
+        ArrayList<FabricColor> virginiaColors=new ArrayList<>();
+        virginiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_virginia_color_01.jpg", Constants.FABRICS_BASE_URL+"virginia/fabric_virginia_color_01.jpg","Color 16015/01","Χρώμα 16015/01"));
+        virginiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_virginia_color_02.jpg", Constants.FABRICS_BASE_URL+"virginia/fabric_virginia_color_02.jpg","Color 16015/02","Χρώμα 16015/02"));
+        virginiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_virginia_color_03.jpg", Constants.FABRICS_BASE_URL+"virginia/fabric_virginia_color_03.jpg","Color 16015/03","Χρώμα 16015/03"));
+        virginiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_virginia_color_04.jpg", Constants.FABRICS_BASE_URL+"virginia/fabric_virginia_color_04.jpg","Color 16015/04","Χρώμα 16015/04"));
+        virginiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_virginia_color_05.jpg", Constants.FABRICS_BASE_URL+"virginia/fabric_virginia_color_05.jpg","Color 16015/05","Χρώμα 16015/05"));
+        virginiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_virginia_color_06.jpg", Constants.FABRICS_BASE_URL+"virginia/fabric_virginia_color_06.jpg","Color 16015/06","Χρώμα 16015/06"));
+
+
+        Fabric virginia=new Fabric(R.drawable.virginia,"VIRGINIA",virginiaColors);
+
+        ArrayList<String> virginiaCurtains=new ArrayList<>();
+        virginiaCurtains.add(Constants.CURTAINS_BASE_URL+"virginia/curtain_virginia_color_01.png");
+        virginiaCurtains.add(Constants.CURTAINS_BASE_URL+"virginia/curtain_virginia_color_02.png");
+        virginiaCurtains.add(Constants.CURTAINS_BASE_URL+"virginia/curtain_virginia_color_03.png");
+        virginiaCurtains.add(Constants.CURTAINS_BASE_URL+"virginia/curtain_virginia_color_04.png");
+        virginiaCurtains.add(Constants.CURTAINS_BASE_URL+"virginia/curtain_virginia_color_05.png");
+        virginiaCurtains.add(Constants.CURTAINS_BASE_URL+"virginia/curtain_virginia_color_06.png");
+
+
+        virginia.setCurtains(virginiaCurtains);
+
+        ArrayList<FabricColor> scarlettColors=new ArrayList<>();
+        scarlettColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_scarlett_color_01.jpg", Constants.FABRICS_BASE_URL+"scarlett/fabric_scarlett_color_01.jpg","Color 18005/01","Χρώμα 18005/01"));
+        scarlettColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_scarlett_color_02.jpg", Constants.FABRICS_BASE_URL+"scarlett/fabric_scarlett_color_02.jpg","Color 18005/02","Χρώμα 18005/02"));
+        scarlettColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_scarlett_color_03.jpg", Constants.FABRICS_BASE_URL+"scarlett/fabric_scarlett_color_03.jpg","Color 18005/03","Χρώμα 18005/03"));
+        scarlettColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_scarlett_color_04.jpg", Constants.FABRICS_BASE_URL+"scarlett/fabric_scarlett_color_04.jpg","Color 18005/04","Χρώμα 18005/04"));
+        scarlettColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_scarlett_color_05.jpg", Constants.FABRICS_BASE_URL+"scarlett/fabric_scarlett_color_05.jpg","Color 18005/05","Χρώμα 18005/05"));
+        scarlettColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_scarlett_color_06.jpg", Constants.FABRICS_BASE_URL+"scarlett/fabric_scarlett_color_06.jpg","Color 18005/06","Χρώμα 18005/06"));
+
+
+        Fabric scarlett=new Fabric(R.drawable.scarlett,"SCARLETT",scarlettColors);
+
+        ArrayList<String> scarlettCurtains=new ArrayList<>();
+        scarlettCurtains.add(Constants.CURTAINS_BASE_URL+"scarlett/curtain_scarlett_color_01.png");
+        scarlettCurtains.add(Constants.CURTAINS_BASE_URL+"scarlett/curtain_scarlett_color_02.png");
+        scarlettCurtains.add(Constants.CURTAINS_BASE_URL+"scarlett/curtain_scarlett_color_03.png");
+        scarlettCurtains.add(Constants.CURTAINS_BASE_URL+"scarlett/curtain_scarlett_color_04.png");
+        scarlettCurtains.add(Constants.CURTAINS_BASE_URL+"scarlett/curtain_scarlett_color_05.png");
+        scarlettCurtains.add(Constants.CURTAINS_BASE_URL+"scarlett/curtain_scarlett_color_06.png");
+
+        scarlett.setCurtains(scarlettCurtains);
+
+
+        ArrayList<FabricColor> catalinaColors=new ArrayList<>();
+        catalinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_catalina_color_01.jpg", Constants.FABRICS_BASE_URL+"catalina/fabric_catalina_color_01.jpg","Color 18009/01","Χρώμα 18009/01"));
+        catalinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_catalina_color_02.jpg", Constants.FABRICS_BASE_URL+"catalina/fabric_catalina_color_02.jpg","Color 18009/02","Χρώμα 18009/02"));
+        catalinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_catalina_color_03.jpg", Constants.FABRICS_BASE_URL+"catalina/fabric_catalina_color_03.jpg","Color 18009/03","Χρώμα 18009/03"));
+        catalinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_catalina_color_04.jpg", Constants.FABRICS_BASE_URL+"catalina/fabric_catalina_color_04.jpg","Color 18009/04","Χρώμα 18009/04"));
+        catalinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_catalina_color_05.jpg", Constants.FABRICS_BASE_URL+"catalina/fabric_catalina_color_05.jpg","Color 18009/05","Χρώμα 18009/05"));
+
+
+        Fabric catalina=new Fabric(R.drawable.catalina,"CATALINA",catalinaColors);
+
+        ArrayList<String> catalinaCurtains=new ArrayList<>();
+        catalinaCurtains.add(Constants.CURTAINS_BASE_URL+"catalina/curtain_catalina_color_01.png");
+        catalinaCurtains.add(Constants.CURTAINS_BASE_URL+"catalina/curtain_catalina_color_02.png");
+        catalinaCurtains.add(Constants.CURTAINS_BASE_URL+"catalina/curtain_catalina_color_03.png");
+        catalinaCurtains.add(Constants.CURTAINS_BASE_URL+"catalina/curtain_catalina_color_04.png");
+        catalinaCurtains.add(Constants.CURTAINS_BASE_URL+"catalina/curtain_catalina_color_05.png");
+
+        catalina.setCurtains(catalinaCurtains);
+
+
+        ArrayList<FabricColor> anastasiaColors=new ArrayList<>();
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_01.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_01.jpg","Color 20013/01","Χρώμα 20013/01"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_02.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_02.jpg","Color 20013/02","Χρώμα 20013/02"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_03.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_03.jpg","Color 20013/03","Χρώμα 20013/03"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_04.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_04.jpg","Color 20013/04","Χρώμα 20013/04"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_05.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_05.jpg","Color 20013/05","Χρώμα 20013/05"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_06.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_06.jpg","Color 20013/06","Χρώμα 20013/06"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_07.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_07.jpg","Color 20013/07","Χρώμα 20013/07"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_08.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_08.jpg","Color 20013/08","Χρώμα 20013/08"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_09.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_09.jpg","Color 20013/09","Χρώμα 20013/09"));
+        anastasiaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_anastasia_color_10.jpg", Constants.FABRICS_BASE_URL+"anastasia/fabric_anastasia_color_10.jpg","Color 20013/10","Χρώμα 20013/10"));
+
+        Fabric anastasia=new Fabric(R.drawable.anastasia,"ANASTASIA",anastasiaColors);
+
+        ArrayList<String> anastasiaCurtains=new ArrayList<>();
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_01.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_02.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_03.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_04.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_05.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_06.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_07.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_08.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_09.png");
+        anastasiaCurtains.add(Constants.CURTAINS_BASE_URL+"anastasia/curtain_anastasia_color_10.png");
+
+        anastasia.setCurtains(anastasiaCurtains);
+
+        ArrayList<FabricColor> carolinaColors=new ArrayList<>();
+        carolinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_carolina_color_01.jpg", Constants.FABRICS_BASE_URL+"carolina/fabric_carolina_color_01.jpg","Color 26004/01","Χρώμα 26004/01"));
+        carolinaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_carolina_color_02.jpg", Constants.FABRICS_BASE_URL+"carolina/fabric_carolina_color_02.jpg","Color 26004/02","Χρώμα 26004/02"));
+
+
+        Fabric carolina=new Fabric(R.drawable.carolina,"CAROLINA",carolinaColors);
+
+        ArrayList<String> carolinaCurtains=new ArrayList<>();
+        carolinaCurtains.add(Constants.CURTAINS_BASE_URL+"carolina/curtain_carolina_color_01.png");
+        carolinaCurtains.add(Constants.CURTAINS_BASE_URL+"carolina/curtain_carolina_color_02.png");
+
+
+        carolina.setCurtains(carolinaCurtains);
+
+        ArrayList<FabricColor> gildaColors=new ArrayList<>();
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_01.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_01.jpg","Color 26008/01","Χρώμα 26008/01"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_02.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_02.jpg","Color 26008/02","Χρώμα 26008/02"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_03.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_03.jpg","Color 26008/03","Χρώμα 26008/03"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_04.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_04.jpg","Color 26008/04","Χρώμα 26008/04"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_05.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_05.jpg","Color 26008/05","Χρώμα 26008/05"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_06.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_06.jpg","Color 26008/06","Χρώμα 26008/06"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_07.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_07.jpg","Color 26008/07","Χρώμα 26008/07"));
+        gildaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gilda_color_08.jpg", Constants.FABRICS_BASE_URL+"gilda/fabric_gilda_color_08.jpg","Color 26008/08","Χρώμα 26008/08"));
+
+        Fabric gilda=new Fabric(R.drawable.gilda,"GILDA",gildaColors);
+
+        ArrayList<String> gildaCurtains=new ArrayList<>();
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_01.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_02.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_03.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_04.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_05.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_06.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_07.png");
+        gildaCurtains.add(Constants.CURTAINS_BASE_URL+"gilda/curtain_gilda_color_08.png");
+
+        gilda.setCurtains(gildaCurtains);
+
+        ArrayList<FabricColor> jessicaColors=new ArrayList<>();
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_01.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_01.jpg","Color 32001/01","Χρώμα 32001/01"));
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_02.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_02.jpg","Color 32001/02","Χρώμα 32001/02"));
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_03.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_03.jpg","Color 32001/03","Χρώμα 32001/03"));
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_04.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_04.jpg","Color 32001/04","Χρώμα 32001/04"));
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_05.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_05.jpg","Color 32001/05","Χρώμα 32001/05"));
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_06.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_06.jpg","Color 32001/06","Χρώμα 32001/06"));
+        jessicaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_jessica_color_07.jpg", Constants.FABRICS_BASE_URL+"jessica/fabric_jessica_color_07.jpg","Color 32001/07","Χρώμα 32001/07"));
+
+        Fabric jessica=new Fabric(R.drawable.jessica,"JESSICA",jessicaColors);
+
+        ArrayList<String> jessicaCurtains=new ArrayList<>();
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_01.png");
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_02.png");
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_03.png");
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_04.png");
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_05.png");
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_06.png");
+        jessicaCurtains.add(Constants.CURTAINS_BASE_URL+"jessica/curtain_jessica_color_07.png");
+
+        jessica.setCurtains(jessicaCurtains);
+
+        ArrayList<FabricColor> samanthaColors=new ArrayList<>();
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_01.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_01.jpg","Color 32002/01","Χρώμα 32002/01"));
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_02.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_02.jpg","Color 32002/02","Χρώμα 32002/02"));
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_03.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_03.jpg","Color 32002/03","Χρώμα 32002/03"));
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_04.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_04.jpg","Color 32002/04","Χρώμα 32002/04"));
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_05.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_05.jpg","Color 32002/05","Χρώμα 32002/05"));
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_06.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_06.jpg","Color 32002/06","Χρώμα 32002/06"));
+        samanthaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_samantha_color_07.jpg", Constants.FABRICS_BASE_URL+"samantha/fabric_samantha_color_07.jpg","Color 32002/07","Χρώμα 32002/07"));
+
+        Fabric samantha=new Fabric(R.drawable.samantha,"SAMANTHA",samanthaColors);
+
+        ArrayList<String> samanthaCurtains=new ArrayList<>();
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_01.png");
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_02.png");
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_03.png");
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_04.png");
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_05.png");
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_06.png");
+        samanthaCurtains.add(Constants.CURTAINS_BASE_URL+"samantha/curtain_samantha_color_07.png");
+
+        samantha.setCurtains(samanthaCurtains);
 
 
 
@@ -4179,7 +4600,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         curtainFabrics.add(mona);
         curtainFabrics.add(daniela);
         curtainFabrics.add(dolores);
-
+        curtainFabrics.add(alberta);
+        curtainFabrics.add(celia);
+        curtainFabrics.add(olivia);
+        curtainFabrics.add(calista);
+        curtainFabrics.add(daisy);
+        curtainFabrics.add(alison);
+        curtainFabrics.add(bianca);
+        curtainFabrics.add(anabel);
+        curtainFabrics.add(nancy);
+        curtainFabrics.add(leticia);
+        curtainFabrics.add(virginia);
+        curtainFabrics.add(scarlett);
+        curtainFabrics.add(catalina);
+        curtainFabrics.add(anastasia);
+        curtainFabrics.add(carolina);
+        curtainFabrics.add(gilda);
+        curtainFabrics.add(jessica);
+        curtainFabrics.add(samantha);
 
 
 
