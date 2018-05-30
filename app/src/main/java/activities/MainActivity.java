@@ -397,6 +397,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
+
     public void initData () {
         indoorFabrics =new ArrayList<>();
         outdoorFabrics=new ArrayList<>();
@@ -613,7 +614,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         atlantisCouchBodys.add(Constants.COUCHES_BODY_URL+"atlantis/couch_body_atlantis_color_21.png");
         atlantisCouchBodys.add(Constants.COUCHES_BODY_URL+"atlantis/couch_body_atlantis_color_05.png");
         atlantisCouchBodys.add(Constants.COUCHES_BODY_URL+"atlantis/couch_body_atlantis_color_20.png");
-        
+
 
         ArrayList<String> atlantisCouchPillows=new ArrayList<>();
 
@@ -641,7 +642,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         atlantisCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"atlantis/couch_pillow_atlantis_color_21.png");
         atlantisCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"atlantis/couch_pillow_atlantis_color_05.png");
         atlantisCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"atlantis/couch_pillow_atlantis_color_20.png");
-        
+
 
         Fabric atlantis=new Fabric(R.drawable.atlantis,"ATLANTIS",atlantisColors);
         atlantis.setCouchPillows(atlantisCouchPillows);
@@ -649,15 +650,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         atlantis.setCouches(atlantisCouches);
 
         ArrayList<FabricColor> belvedereColors=new ArrayList<>();
-        
+
 
         belvedereColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_belvedere_color_05.jpg", Constants.FABRICS_BASE_URL+"belvedere/fabric_belvedere_color_05.jpg","Color 05","Χρώμα 05"));
         belvedereColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_belvedere_color_01.jpg", Constants.FABRICS_BASE_URL+"belvedere/fabric_belvedere_color_01.jpg","Color 01","Χρώμα 01"));
         belvedereColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_belvedere_color_02.jpg", Constants.FABRICS_BASE_URL+"belvedere/fabric_belvedere_color_02.jpg","Color 02","Χρώμα 02"));
         belvedereColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_belvedere_color_04.jpg", Constants.FABRICS_BASE_URL+"belvedere/fabric_belvedere_color_04.jpg","Color 04","Χρώμα 04"));
         belvedereColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_belvedere_color_03.jpg", Constants.FABRICS_BASE_URL+"belvedere/fabric_belvedere_color_03.jpg","Color 03","Χρώμα 03"));
-        
-        
+
+
 
         ArrayList<String> belvedereCouches=new ArrayList<>();
         belvedereCouches.add(Constants.COUCHES_BASE_URL+"belvedere/couch_belvedere_color_05.png");
@@ -679,8 +680,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         belvedereCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"belvedere/couch_pillow_belvedere_color_02.png");
         belvedereCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"belvedere/couch_pillow_belvedere_color_04.png");
         belvedereCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"belvedere/couch_pillow_belvedere_color_03.png");
-        
-        
+
+
 
         Fabric belvedere=new Fabric(R.drawable.belvedere,"BELVEDERE",belvedereColors);
         belvedere.setCouches(belvedereCouches);
@@ -778,8 +779,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         elementCouches.add(Constants.COUCHES_BASE_URL+"element/couch_element_color_11.png");
         Fabric element=new Fabric(R.drawable.element,"ELEMENT",elementColors);
         element.setCouches(elementCouches);
-        
-        
+
+
         ArrayList <String> elementCouchBodys=new ArrayList<>();
         elementCouchBodys.add(Constants.COUCHES_BODY_URL+"element/couch_body_element_color_01.png");
         elementCouchBodys.add(Constants.COUCHES_BODY_URL+"element/couch_body_element_color_02.png");
@@ -791,7 +792,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         elementCouchBodys.add(Constants.COUCHES_BODY_URL+"element/couch_body_element_color_12.png");
         elementCouchBodys.add(Constants.COUCHES_BODY_URL+"element/couch_body_element_color_11.png");
         element.setCouchBodys(elementCouchBodys);
-        
+
 
         ArrayList<String> elementCouchPillows=new ArrayList<>();
         elementCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"element/couch_pillow_element_color_01.png");
@@ -804,7 +805,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         elementCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"element/couch_pillow_element_color_12.png");
         elementCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"element/couch_pillow_element_color_11.png");
         element.setCouchPillows(elementCouchPillows);
-        
+
 
         ArrayList<String> elementCurtains=new ArrayList<>();
         elementCurtains.add(Constants.CURTAINS_BASE_URL+"element/curtain_element_color_01.png");
@@ -1014,7 +1015,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         giftCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"gift/couch_pillow_gift_color_53.png");
         giftCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"gift/couch_pillow_gift_color_47.png");
         gift.setCouchPillows(giftCouchPillows);
-        
+
 
         ArrayList<FabricColor> illusionColors=new ArrayList<>();
         illusionColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_illusion_color_33.jpg", Constants.FABRICS_BASE_URL+"illusion/fabric_illusion_color_33.jpg","Color 33","Χρώμα 33"));
@@ -1089,7 +1090,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         illusionCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"illusion/couch_pillow_illusion_color_04.png");
         illusionCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"illusion/couch_pillow_illusion_color_14.png");
         illusion.setCouchPillows(illusionCouchPillows);
-        
+
 
         ArrayList<FabricColor> localColors=new ArrayList<>();
         localColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_local_color_02.jpg", Constants.FABRICS_BASE_URL+"local/fabric_local_color_02.jpg","Color 02","Χρώμα 02"));
@@ -1166,7 +1167,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         localCouchBodys.add(Constants.COUCHES_BODY_URL+"local/couch_body_local_color_21.png");
         localCouchBodys.add(Constants.COUCHES_BODY_URL+"local/couch_body_local_color_17.png");
         localCouchBodys.add(Constants.COUCHES_BODY_URL+"local/couch_body_local_color_09.png");
-        
+
         local.setCouchBodys(localCouchBodys);
 
         ArrayList<String> localCouchPillows=new ArrayList<>();
@@ -1194,7 +1195,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         localCouchPillows.add(Constants.COUCHES_PILLOWS_URL+"local/couch_pillow_local_color_09.png");
 
         local.setCouchPillows(localCouchPillows);
-        
+
 
         ArrayList<FabricColor> majesticColors=new ArrayList<>();
         majesticColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_majestic_color_mg_7489.jpg", Constants.FABRICS_BASE_URL+"majestic/fabric_majestic_color_MG_7489.jpg","MG 7489","MG 7489"));
@@ -1225,7 +1226,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         majesticCouchBodys.add(Constants.COUCHES_BODY_URL+"majestic/couch_body_majestic_color_MG_7496.png");
         majesticCouchBodys.add(Constants.COUCHES_BODY_URL+"majestic/couch_body_majestic_color_MG_7498.png");
         majesticCouchBodys.add(Constants.COUCHES_BODY_URL+"majestic/couch_body_majestic_color_MG_7500.png");
-        
+
         majestic.setCouchBodys(majesticCouchBodys);
 
         ArrayList<String> majesticCouchPillows=new ArrayList<>();
@@ -1747,7 +1748,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_104.png");
         macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_105.png");
         macaoCouches.add(Constants.COUCHES_BASE_URL+"macao/couch_macao_color_106.png");
-        
+
         macao.setCouches(macaoCouches);
 
         ArrayList<String> macaoCouchBodys=new ArrayList<>();
@@ -1786,7 +1787,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_104.png");
         tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_105.png");
         tenerifeCouches.add(Constants.COUCHES_BASE_URL+"tenerife/couch_tenerife_color_106.png");
-        
+
         tenerife.setCouches(tenerifeCouches);
 
         ArrayList<String> tenerifeCouchBodys=new ArrayList<>();
@@ -1796,7 +1797,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_104.png");
         tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_105.png");
         tenerifeCouchBodys.add(Constants.COUCHES_BODY_URL+"tenerife/couch_body_tenerife_color_106.png");
-        
+
         tenerife.setCouchBodys(tenerifeCouchBodys);
 
         ArrayList<String> tenerifeCouchPillows=new ArrayList<>();
@@ -1874,9 +1875,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_802.png");
         utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_901.png");
         utopiaCouches.add(Constants.COUCHES_BASE_URL+"utopia/couch_utopia_color_902.png");
-        
+
         utopia.setCouches(utopiaCouches);
-        
+
         ArrayList<String> utopiaBodys=new ArrayList<>();
 
         utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_01.png");
@@ -1909,7 +1910,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_802.png");
         utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_901.png");
         utopiaBodys.add(Constants.COUCHES_BODY_URL+"utopia/couch_body_utopia_color_902.png");
-        
+
         utopia.setCouchBodys(utopiaBodys);
 
         ArrayList<String> utopiaPillows=new ArrayList<>();
@@ -1943,7 +1944,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_802.png");
         utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_901.png");
         utopiaPillows.add(Constants.COUCHES_PILLOWS_URL+"utopia/couch_pillow_utopia_color_902.png");
-        
+
         utopia.setCouchPillows(utopiaPillows);
 
         ArrayList<FabricColor> theronColors=new ArrayList<>();
@@ -1985,9 +1986,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_08.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_08.jpg","Color 08","Χρώμα 08"));
         cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_09.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_09.jpg","Color 09","Χρώμα 09"));
         cantuColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_cantu_color_10.jpg", Constants.FABRICS_BASE_URL+"cantu/fabric_cantu_color_10.jpg","Color 10","Χρώμα 10"));
-        
+
         Fabric cantu=new Fabric(R.drawable.cantu,"CANTU",cantuColors);
-        
+
         ArrayList<String> cantuCouches=new ArrayList<>();
         cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_01.png");
         cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_02.png");
@@ -1999,7 +2000,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_08.png");
         cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_09.png");
         cantuCouches.add(Constants.COUCHES_BASE_URL+"cantu/couch_cantu_color_10.png");
-        
+
         cantu.setCouches(calmCouches);
 
         ArrayList<String> cantuCouchBodys=new ArrayList<>();
@@ -2013,7 +2014,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_08.png");
         cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_09.png");
         cantuCouchBodys.add(Constants.COUCHES_BODY_URL+"cantu/couch_body_cantu_color_10.png");
-        
+
         cantu.setCouchBodys(cantuCouchBodys);
 
         ArrayList<String> cantuCouchPillows=new ArrayList<>();
@@ -2036,6 +2037,551 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
+
+        ArrayList<FabricColor> azzurroColors=new ArrayList<>();
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_01.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_01.jpg","Color 01","Χρώμα 01"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_02.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_02.jpg","Color 02","Χρώμα 02"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_03.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_03.jpg","Color 03","Χρώμα 03"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_04.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_04.jpg","Color 04","Χρώμα 04"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_05.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_05.jpg","Color 05","Χρώμα 05"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_07.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_07.jpg","Color 07","Χρώμα 07"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_08.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_08.jpg","Color 08","Χρώμα 08"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_09.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_09.jpg","Color 09","Χρώμα 09"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_10.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_10.jpg","Color 10","Χρώμα 10"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_11.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_11.jpg","Color 11","Χρώμα 11"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_12.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_12.jpg","Color 12","Χρώμα 12"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_13.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_13.jpg","Color 13","Χρώμα 13"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_14.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_14.jpg","Color 14","Χρώμα 14"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_15.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_15.jpg","Color 15","Χρώμα 15"));
+        azzurroColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_azzurro_color_60.jpg", Constants.FABRICS_BASE_URL+"azzurro/fabric_azzurro_color_60.jpg","Color 60","Χρώμα 60"));
+
+        Fabric azzurro=new Fabric(R.drawable.azzurro,"AZZURRO",azzurroColors);
+
+        ArrayList<String> azzurroCouches=new ArrayList<>();
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_01.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_02.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_03.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_04.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_05.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_07.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_08.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_09.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_10.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_11.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_12.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_13.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_14.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_15.png");
+        azzurroCouches.add(Constants.COUCHES_BASE_URL+"azzurro/couch_azzurro_color_60.png");
+
+        azzurro.setCouches(azzurroCouches);
+
+        ArrayList<String> azzurroBodys=new ArrayList<>();
+
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_01.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_02.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_03.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_04.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_05.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_07.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_08.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_09.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_10.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_11.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_12.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_13.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_14.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_15.png");
+        azzurroBodys.add(Constants.COUCHES_BODY_URL+"azzurro/couch_body_azzurro_color_60.png");
+
+        azzurro.setCouchBodys(azzurroBodys);
+
+        ArrayList<String> azzurroPillows=new ArrayList<>();
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_01.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_02.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_03.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_04.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_05.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_07.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_08.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_09.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_10.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_11.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_12.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_13.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_14.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_15.png");
+        azzurroPillows.add(Constants.COUCHES_PILLOWS_URL+"azzurro/couch_pillow_azzurro_color_60.png");
+
+        azzurro.setCouchPillows(azzurroPillows);
+
+
+        ArrayList<FabricColor> charlieColors=new ArrayList<>();
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_01.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_01.jpg","Color 01","Χρώμα 01"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_02.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_02.jpg","Color 02","Χρώμα 02"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_03.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_03.jpg","Color 03","Χρώμα 03"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_04.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_04.jpg","Color 04","Χρώμα 04"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_05.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_05.jpg","Color 05","Χρώμα 05"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_06.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_06.jpg","Color 06","Χρώμα 06"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_07.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_07.jpg","Color 07","Χρώμα 07"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_08.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_08.jpg","Color 08","Χρώμα 08"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_09.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_09.jpg","Color 09","Χρώμα 09"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_10.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_10.jpg","Color 10","Χρώμα 10"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_11.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_11.jpg","Color 11","Χρώμα 11"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_12.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_12.jpg","Color 12","Χρώμα 12"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_13.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_13.jpg","Color 13","Χρώμα 13"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_14.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_14.jpg","Color 14","Χρώμα 14"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_15.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_15.jpg","Color 15","Χρώμα 15"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_16.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_16.jpg","Color 16","Χρώμα 16"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_17.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_17.jpg","Color 17","Χρώμα 17"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_18.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_18.jpg","Color 18","Χρώμα 18"));
+        charlieColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_charlie_color_19.jpg", Constants.FABRICS_BASE_URL+"charlie/fabric_charlie_color_19.jpg","Color 19","Χρώμα 19"));
+
+        Fabric charlie=new Fabric(R.drawable.charlie,"CHARLIE",charlieColors);
+
+        ArrayList<String> charlieCouches=new ArrayList<>();
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_01.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_02.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_03.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_04.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_05.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_06.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_07.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_08.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_09.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_10.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_11.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_12.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_13.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_14.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_15.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_16.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_17.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_18.png");
+        charlieCouches.add(Constants.COUCHES_BASE_URL+"charlie/couch_charlie_color_19.png");
+
+        charlie.setCouches(charlieCouches);
+
+        ArrayList<String> charlieBodys=new ArrayList<>();
+
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_01.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_02.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_03.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_04.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_05.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_06.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_07.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_08.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_09.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_10.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_11.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_12.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_13.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_14.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_15.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_16.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_17.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_18.png");
+        charlieBodys.add(Constants.COUCHES_BODY_URL+"charlie/couch_body_charlie_color_19.png");
+
+        charlie.setCouchBodys(charlieBodys);
+
+        ArrayList<String> charliePillows=new ArrayList<>();
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_01.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_02.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_03.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_04.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_05.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_06.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_07.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_08.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_09.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_10.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_11.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_12.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_13.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_14.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_15.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_16.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_17.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_18.png");
+        charliePillows.add(Constants.COUCHES_PILLOWS_URL+"charlie/couch_pillow_charlie_color_19.png");
+
+        charlie.setCouchPillows(charliePillows);
+
+
+        ArrayList<FabricColor> crystalColors=new ArrayList<>();
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_01.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_01.jpg","Color 01","Χρώμα 01"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_02.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_02.jpg","Color 02","Χρώμα 02"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_03.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_03.jpg","Color 03","Χρώμα 03"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_04.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_04.jpg","Color 04","Χρώμα 04"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_05.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_05.jpg","Color 05","Χρώμα 05"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_06.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_06.jpg","Color 06","Χρώμα 06"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_07.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_07.jpg","Color 07","Χρώμα 07"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_08.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_08.jpg","Color 08","Χρώμα 08"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_09.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_09.jpg","Color 09","Χρώμα 09"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_10.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_10.jpg","Color 10","Χρώμα 10"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_11.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_11.jpg","Color 11","Χρώμα 11"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_12.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_12.jpg","Color 12","Χρώμα 12"));
+        crystalColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_crystal_color_13.jpg", Constants.FABRICS_BASE_URL+"crystal/fabric_crystal_color_13.jpg","Color 13","Χρώμα 13"));
+
+
+        Fabric crystal=new Fabric(R.drawable.crystal,"CRYSTAL",crystalColors);
+
+        ArrayList<String> crystalCouches=new ArrayList<>();
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_01.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_02.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_03.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_04.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_05.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_06.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_07.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_08.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_09.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_10.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_11.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_12.png");
+        crystalCouches.add(Constants.COUCHES_BASE_URL+"crystal/couch_crystal_color_13.png");
+
+
+        crystal.setCouches(crystalCouches);
+
+        ArrayList<String> crystalBodys=new ArrayList<>();
+
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_01.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_02.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_03.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_04.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_05.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_06.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_07.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_08.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_09.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_10.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_11.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_12.png");
+        crystalBodys.add(Constants.COUCHES_BODY_URL+"crystal/couch_body_crystal_color_13.png");
+
+
+        crystal.setCouchBodys(crystalBodys);
+
+        ArrayList<String> crystalPillows=new ArrayList<>();
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_01.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_02.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_03.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_04.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_05.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_06.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_07.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_08.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_09.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_10.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_11.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_12.png");
+        crystalPillows.add(Constants.COUCHES_PILLOWS_URL+"crystal/couch_pillow_crystal_color_13.png");
+
+
+        crystal.setCouchPillows(crystalPillows);
+
+
+        ArrayList<FabricColor> diversoColors=new ArrayList<>();
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_01.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_01.jpg","Color 01","Χρώμα 01"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_02.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_02.jpg","Color 02","Χρώμα 02"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_03.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_03.jpg","Color 03","Χρώμα 03"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_04.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_04.jpg","Color 04","Χρώμα 04"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_05.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_05.jpg","Color 05","Χρώμα 05"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_06.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_06.jpg","Color 06","Χρώμα 06"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_07.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_07.jpg","Color 07","Χρώμα 07"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_08.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_08.jpg","Color 08","Χρώμα 08"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_09.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_09.jpg","Color 09","Χρώμα 09"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_10.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_10.jpg","Color 10","Χρώμα 10"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_11.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_11.jpg","Color 11","Χρώμα 11"));
+        diversoColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_diverso_color_12.jpg", Constants.FABRICS_BASE_URL+"diverso/fabric_diverso_color_12.jpg","Color 12","Χρώμα 12"));
+
+
+        Fabric diverso=new Fabric(R.drawable.diverso,"DIVERSO",diversoColors);
+
+        ArrayList<String> diversoCouches=new ArrayList<>();
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_01.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_02.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_03.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_04.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_05.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_06.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_07.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_08.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_09.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_10.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_11.png");
+        diversoCouches.add(Constants.COUCHES_BASE_URL+"diverso/couch_diverso_color_12.png");
+
+
+        diverso.setCouches(diversoCouches);
+
+        ArrayList<String> diversoBodys=new ArrayList<>();
+
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_01.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_02.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_03.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_04.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_05.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_06.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_07.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_08.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_09.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_10.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_11.png");
+        diversoBodys.add(Constants.COUCHES_BODY_URL+"diverso/couch_body_diverso_color_12.png");
+
+        diverso.setCouchBodys(diversoBodys);
+
+        ArrayList<String> diversoPillows=new ArrayList<>();
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_01.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_02.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_03.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_04.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_05.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_06.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_07.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_08.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_09.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_10.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_11.png");
+        diversoPillows.add(Constants.COUCHES_PILLOWS_URL+"diverso/couch_pillow_diverso_color_12.png");
+
+
+        diverso.setCouchPillows(diversoPillows);
+
+
+        ArrayList<FabricColor> gravityColors=new ArrayList<>();
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_03.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_03.jpg","Color 03","Χρώμα 03"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_06.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_06.jpg","Color 06","Χρώμα 06"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_07.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_07.jpg","Color 07","Χρώμα 07"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_09.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_09.jpg","Color 09","Χρώμα 09"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_21.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_21.jpg","Color 21","Χρώμα 21"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_30.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_30.jpg","Color 30","Χρώμα 30"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_31.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_31.jpg","Color 31","Χρώμα 31"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_37.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_37.jpg","Color 37","Χρώμα 37"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_38.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_38.jpg","Color 38","Χρώμα 38"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_43.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_43.jpg","Color 43","Χρώμα 43"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_57.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_57.jpg","Color 57","Χρώμα 57"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_66.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_66.jpg","Color 66","Χρώμα 66"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_70.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_70.jpg","Color 70","Χρώμα 70"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_80.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_80.jpg","Color 80","Χρώμα 80"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_89.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_89.jpg","Color 89","Χρώμα 89"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_94.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_94.jpg","Color 94","Χρώμα 94"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_100.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_100.jpg","Color 100","Χρώμα 100"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_101.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_101.jpg","Color 101","Χρώμα 101"));
+        gravityColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_gravity_color_104.jpg", Constants.FABRICS_BASE_URL+"gravity/fabric_gravity_color_104.jpg","Color 104","Χρώμα 104"));
+
+        Fabric gravity=new Fabric(R.drawable.gravity,"GRAVITY",gravityColors);
+
+        ArrayList<String> gravityCouches=new ArrayList<>();
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_03.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_06.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_07.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_09.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_21.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_30.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_31.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_37.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_38.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_43.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_57.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_66.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_70.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_80.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_89.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_94.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_100.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_101.png");
+        gravityCouches.add(Constants.COUCHES_BASE_URL+"gravity/couch_gravity_color_104.png");
+
+        gravity.setCouches(gravityCouches);
+
+        ArrayList<String> gravityBodys=new ArrayList<>();
+
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_03.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_06.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_07.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_09.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_21.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_30.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_31.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_37.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_38.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_43.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_57.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_66.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_70.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_80.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_89.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_94.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_100.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_101.png");
+        gravityBodys.add(Constants.COUCHES_BODY_URL+"gravity/couch_body_gravity_color_104.png");
+
+        gravity.setCouchBodys(gravityBodys);
+
+        ArrayList<String> gravityPillows=new ArrayList<>();
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_03.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_06.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_07.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_09.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_21.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_30.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_31.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_37.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_38.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_43.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_57.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_66.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_70.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_80.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_89.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_94.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_100.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_101.png");
+        gravityPillows.add(Constants.COUCHES_PILLOWS_URL+"gravity/couch_pillow_gravity_color_104.png");
+
+        gravity.setCouchPillows(gravityPillows);
+
+
+
+
+        ArrayList<FabricColor> oxygenColors=new ArrayList<>();
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_01.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_01.jpg","Color 01","Χρώμα 01"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_04.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_04.jpg","Color 04","Χρώμα 04"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_06.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_06.jpg","Color 06","Χρώμα 06"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_07.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_07.jpg","Color 07","Χρώμα 07"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_111.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_111.jpg","Color 111","Χρώμα 111"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_200.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_200.jpg","Color 200","Χρώμα 200"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_303.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_303.jpg","Color 303","Χρώμα 303"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_305.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_305.jpg","Color 305","Χρώμα 305"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_307.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_307.jpg","Color 307","Χρώμα 307"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_310.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_310.jpg","Color 310","Χρώμα 310"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_400.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_400.jpg","Color 400","Χρώμα 400"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_405.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_405.jpg","Color 405","Χρώμα 405"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_430.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_430.jpg","Color 430","Χρώμα 430"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_433.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_433.jpg","Color 433","Χρώμα 433"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_500.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_500.jpg","Color 500","Χρώμα 500"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_501.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_501.jpg","Color 501","Χρώμα 501"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_603.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_603.jpg","Color 603","Χρώμα 603"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_605.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_605.jpg","Color 605","Χρώμα 605"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_606.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_606.jpg","Color 606","Χρώμα 606"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_607.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_607.jpg","Color 607","Χρώμα 607"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_608.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_608.jpg","Color 608","Χρώμα 608"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_700.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_700.jpg","Color 700","Χρώμα 700"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_702.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_702.jpg","Color 702","Χρώμα 702"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_703.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_703.jpg","Color 703","Χρώμα 703"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_801.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_801.jpg","Color 801","Χρώμα 801"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_804.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_804.jpg","Color 804","Χρώμα 804"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_805.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_805.jpg","Color 805","Χρώμα 805"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_806.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_806.jpg","Color 806","Χρώμα 806"));
+        oxygenColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_oxygen_color_912.jpg", Constants.FABRICS_BASE_URL+"oxygen/fabric_oxygen_color_912.jpg","Color 912","Χρώμα 912"));
+
+        Fabric oxygen=new Fabric(R.drawable.oxygen,"oxygen",oxygenColors);
+
+        ArrayList<String> oxygenCouches=new ArrayList<>();
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_01.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_04.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_06.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_07.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_111.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_200.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_303.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_305.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_307.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_310.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_400.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_405.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_430.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_433.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_500.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_501.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_603.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_605.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_606.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_607.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_608.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_700.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_702.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_703.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_801.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_804.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_805.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_806.png");
+        oxygenCouches.add(Constants.COUCHES_BASE_URL+"oxygen/couch_oxygen_color_912.png");
+
+
+        oxygen.setCouches(oxygenCouches);
+
+        ArrayList<String> oxygenBodys=new ArrayList<>();
+
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_01.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_04.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_06.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_07.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_111.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_200.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_303.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_305.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_307.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_310.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_400.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_405.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_430.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_433.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_500.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_501.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_603.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_605.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_606.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_607.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_608.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_700.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_702.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_703.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_801.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_804.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_805.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_806.png");
+        oxygenBodys.add(Constants.COUCHES_BODY_URL+"oxygen/couch_body_oxygen_color_912.png");
+
+        oxygen.setCouchBodys(oxygenBodys);
+
+        ArrayList<String> oxygenPillows=new ArrayList<>();
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_01.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_04.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_06.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_07.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_111.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_200.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_303.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_305.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_307.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_310.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_400.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_405.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_430.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_433.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_500.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_501.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_603.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_605.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_606.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_607.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_608.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_700.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_702.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_703.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_801.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_804.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_805.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_806.png");
+        oxygenPillows.add(Constants.COUCHES_PILLOWS_URL+"oxygen/couch_pillow_oxygen_color_912.png");
+
+        oxygen.setCouchPillows(oxygenPillows);
 
 
 
@@ -3579,7 +4125,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         natalyCurtains.add(Constants.CURTAINS_BASE_URL+"nataly/curtain_nataly_color_03.png");
         natalyCurtains.add(Constants.CURTAINS_BASE_URL+"nataly/curtain_nataly_color_04.png");
         natalyCurtains.add(Constants.CURTAINS_BASE_URL+"nataly/curtain_nataly_color_05.png");
-        
+
         nataly.setCurtains(natalyCurtains);
 
 
@@ -3742,7 +4288,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         daphneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daphne_color_03.jpg", Constants.FABRICS_BASE_URL+"daphne/fabric_daphne_color_03.jpg","Color 15006/03","Χρώμα 15006/03"));
         daphneColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_daphne_color_04.jpg", Constants.FABRICS_BASE_URL+"daphne/fabric_daphne_color_04.jpg","Color 15006/04","Χρώμα 15006/04"));
 
-        
+
         Fabric daphne=new Fabric(R.drawable.daphne,"DAPHNE",daphneColors);
 
         ArrayList<String> daphneCurtains=new ArrayList<>();
@@ -4001,7 +4547,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         monaCurtains.add(Constants.CURTAINS_BASE_URL+"mona/curtain_mona_color_05.png");
         monaCurtains.add(Constants.CURTAINS_BASE_URL+"mona/curtain_mona_color_06.png");
         monaCurtains.add(Constants.CURTAINS_BASE_URL+"mona/curtain_mona_color_07.png");
-        
+
         mona.setCurtains(monaCurtains);
 
         ArrayList<FabricColor> danielaColors=new ArrayList<>();
@@ -4019,7 +4565,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         danielaCurtains.add(Constants.CURTAINS_BASE_URL+"daniela/curtain_daniela_color_03.png");
         danielaCurtains.add(Constants.CURTAINS_BASE_URL+"daniela/curtain_daniela_color_04.png");
         danielaCurtains.add(Constants.CURTAINS_BASE_URL+"daniela/curtain_daniela_color_05.png");
-        
+
         daniela.setCurtains(danielaCurtains);
 
         ArrayList<FabricColor> doloresColors=new ArrayList<>();
@@ -4041,6 +4587,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         doloresCurtains.add(Constants.CURTAINS_BASE_URL+"dolores/curtain_dolores_color_06.png");
 
         dolores.setCurtains(doloresCurtains);
+
 
         ArrayList<FabricColor> albertaColors=new ArrayList<>();
         albertaColors.add(new FabricColor(Constants.THUMBNAILS_BASE_URL+"thumbnail_fabric_alberta_color_01.jpg", Constants.FABRICS_BASE_URL+"alberta/fabric_alberta_color_01.jpg","Color 11016/01","Χρώμα 11016/01"));
@@ -4485,6 +5032,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         indoorFabrics.add(utopia);
         indoorFabrics.add(theron);
         indoorFabrics.add(cantu);
+        indoorFabrics.add(azzurro);
+        indoorFabrics.add(charlie);
+        indoorFabrics.add(crystal);
+        indoorFabrics.add(diverso);
+        indoorFabrics.add(gravity);
+        indoorFabrics.add(oxygen);
 
         allFabrics.add(atlantis);
         allFabrics.add(belvedere);
@@ -4502,6 +5055,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         allFabrics.add(vienna);
         allFabrics.add(aegean);
         allFabrics.add(ocean);
+        allFabrics.add(theron);
+        allFabrics.add(cantu);
+        allFabrics.add(azzurro);
+        allFabrics.add(charlie);
+        allFabrics.add(crystal);
+        allFabrics.add(diverso);
+        allFabrics.add(gravity);
+        allFabrics.add(oxygen);
 
 
 
@@ -4618,7 +5179,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         curtainFabrics.add(gilda);
         curtainFabrics.add(jessica);
         curtainFabrics.add(samantha);
-
 
 
         fabricTypes=new ArrayList<>();
