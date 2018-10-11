@@ -99,7 +99,7 @@ public class CouchesActivity extends AppCompatActivity {
 
         selectedFabric = fabrics.get(0);
         final ColorsRecyclerAdapter colorsAdapter = new ColorsRecyclerAdapter(selectedFabric,CouchesActivity.this);
-        FabricsRecyclerAdapter fabricsRecyclerAdapter = new FabricsRecyclerAdapter(fabrics);
+        FabricsRecyclerAdapter fabricsRecyclerAdapter = new FabricsRecyclerAdapter(fabrics, this);
 
 
         LinearLayoutManager layoutManager

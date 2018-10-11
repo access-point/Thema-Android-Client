@@ -8,7 +8,8 @@ public class Constants {
     public static final String BASE_URL="https://thema-backend.herokuapp.com";
     public static final String INIT="/init/";
 
-
+    public static final String CONTENT_JSON_URL="https://thema.com.gr/mobile/json.php";
+    public static final String PREVIEW_BASE_URL="https://thema.com.gr/mobile/preview/";
     public static final String FABRICS_BASE_URL="https://thema.com.gr/mobile/fabrics/";
     public static final String COUCHES_BASE_URL="https://thema.com.gr/mobile/couches/";
     public static final String COUCHES_BODY_URL="https://thema.com.gr/mobile/couch_parts/body/";

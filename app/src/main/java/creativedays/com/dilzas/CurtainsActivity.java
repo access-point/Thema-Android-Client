@@ -93,7 +93,7 @@ public class CurtainsActivity extends AppCompatActivity {
         selectedFabric = fabrics.get(0);
         selectedCurtain = fabrics.get(0).getCurtains().get(0);
         final ColorsRecyclerAdapter colorsAdapter = new ColorsRecyclerAdapter(selectedFabric,CurtainsActivity.this);
-        FabricsRecyclerAdapter fabricsRecyclerAdapter = new FabricsRecyclerAdapter(fabrics);
+        FabricsRecyclerAdapter fabricsRecyclerAdapter = new FabricsRecyclerAdapter(fabrics, this);
 
 
         LinearLayoutManager layoutManager

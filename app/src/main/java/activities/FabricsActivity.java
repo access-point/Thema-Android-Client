@@ -37,7 +37,7 @@ public class FabricsActivity extends AppCompatActivity implements AdapterView.On
 
         fabricsList=(ParallaxRecyclerView)findViewById(R.id.fabrics_listview);
         back=(ImageView)findViewById(R.id.back);
-        FabricsAdapter adapter=new FabricsAdapter(this,fabrics);
+        FabricsAdapter adapter=new FabricsAdapter(this,fabrics, this);
 
         PreCachingLayoutManager manager=new PreCachingLayoutManager(this);
         fabricsList.setLayoutManager(manager);

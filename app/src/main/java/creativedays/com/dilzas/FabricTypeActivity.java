@@ -17,13 +17,11 @@ import objects.FabricType;
 
 public class FabricTypeActivity extends AppCompatActivity {
 
-    ArrayList<FabricType> fabricTypes;
+    public static ArrayList<FabricType> fabricTypes;
     ViewPager fabricTypesPager;
     ImageView back;
 
     SmartTabLayout tabs;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +29,7 @@ public class FabricTypeActivity extends AppCompatActivity {
 
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_fabric_type);
-        fabricTypes= (ArrayList<FabricType>) getIntent().getSerializableExtra("fabric_types");
+
         fabricTypesPager=(ViewPager)findViewById(R.id.fabric_type_viewpager);
         fabricTypesPager.setPageTransformer(false,new ZoomOutPageTransformer());
         tabs=(SmartTabLayout)findViewById(R.id.viewpagertab);
