@@ -30,9 +30,10 @@ import adapters.ColorsRecyclerAdapter;
 import adapters.FabricsRecyclerAdapter;
 import custom_listeners.ClickListener;
 import custom_listeners.RecyclerTouchListener;
-import it.gmariotti.recyclerview.adapter.ScaleInAnimatorAdapter;
 import objects.Fabric;
 import objects.FabricColor;
+import utilities.FabricsSingleton;
+import utilities.recycle_view.ScaleInAnimatorAdapter;
 
 public class CouchesActivity extends AppCompatActivity {
 
@@ -76,7 +77,8 @@ public class CouchesActivity extends AppCompatActivity {
         couch = (ImageView) findViewById(R.id.couch);
 
 
-        fabrics = (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
+        fabrics = FabricsSingleton.instance.getIndoorFabrics();
+       // fabrics = (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
 
         final float radius = 2;
         final View decorView = getWindow().getDecorView();

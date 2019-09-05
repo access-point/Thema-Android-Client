@@ -48,6 +48,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 import utilities.Constants;
+import utilities.FabricsSingleton;
 
 import static creativedays.com.dilzas.R.string.outdoor;
 
@@ -422,22 +423,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.covers:
                 intent = new Intent(this, CouchesActivity.class);
-                intent.putExtra("fabrics", indoorFabrics);
                 startActivity(intent);
                 break;
             case R.id.sofa_creator:
                 intent = new Intent(this, SofaCreatorActivity.class);
-                intent.putExtra("fabrics", indoorFabrics);
                 startActivity(intent);
                 break;
             case R.id.sunbeds:
                 intent = new Intent(this, CouchesActivity.class);
-                intent.putExtra("fabrics", outdoorFabrics);
                 startActivity(intent);
                 break;
             case R.id.curtains:
                 intent = new Intent(this, CurtainsActivity.class);
-                intent.putExtra("fabrics", curtainFabrics);
                 startActivity(intent);
                 break;
             case R.id.social_media:
@@ -498,7 +495,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         allFabrics.add(e);
                         indoorFabrics.add(e);
                     }
-
                     for (int i = 0; i < json_curtains.length(); i++)
                     {
                         JSONObject tmp = json_curtains.getJSONObject(i);
@@ -512,7 +508,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         Fabric e = loadCurtain(tmp.getString("fabric_name"), fabric_code, tmp.getJSONArray("fabric_list"));
                         curtainFabrics.add(e);
                     }
-
                     for (int i = 0; i < json_sunbeds.length(); i++)
                     {
                         JSONObject tmp = json_sunbeds.getJSONObject(i);
@@ -536,17 +531,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 fabricTypes = new ArrayList<>();
                 FabricType indoorFabricType = new FabricType();
-                indoorFabricType.setFabrics(indoorFabrics);
+                //indoorFabricType.setFabrics(indoorFabrics);
                 indoorFabricType.setName(getString(R.string.indoor));
                 indoorFabricType.setImgId(R.drawable.indoors);
 
                 FabricType outdoorFabricType = new FabricType();
-                outdoorFabricType.setFabrics(outdoorTemp);
+                //outdoorFabricType.setFabrics(outdoorTemp);
                 outdoorFabricType.setName(getString(outdoor));
                 outdoorFabricType.setImgId(R.drawable.outdoors);
 
                 FabricType curtainFabricType = new FabricType();
-                curtainFabricType.setFabrics(curtainFabrics);
+                //curtainFabricType.setFabrics(curtainFabrics);
                 curtainFabricType.setName(getString(R.string.curtains_lower));
                 curtainFabricType.setImgId(R.drawable.curtains);
 
@@ -554,6 +549,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fabricTypes.add(outdoorFabricType);
                 fabricTypes.add(curtainFabricType);
 
+                FabricsSingleton.instance.setIndoorFabrics(indoorFabrics);
+                FabricsSingleton.instance.setOutdoorFabrics(outdoorFabrics);
+                FabricsSingleton.instance.setCurtainFabrics(curtainFabrics);
             }
         });
 

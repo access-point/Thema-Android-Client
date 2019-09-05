@@ -50,7 +50,7 @@ public class FabricTypeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getActivity(), FabricsActivity.class);
-                intent.putExtra("fabrics",fabricType.getFabrics());
+                intent.putExtra("fabrics",fabricType.getName());
                 getActivity().startActivity(intent);
             }
         });

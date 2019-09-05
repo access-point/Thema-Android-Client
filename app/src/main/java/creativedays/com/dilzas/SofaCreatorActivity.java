@@ -33,9 +33,10 @@ import adapters.CreatorFabricsRecyclerAdapter;
 import custom_listeners.ClickListener;
 import custom_listeners.RecyclerTouchListener;
 import custom_views.CustomViewPager;
-import it.gmariotti.recyclerview.adapter.ScaleInAnimatorAdapter;
 import objects.Fabric;
 import objects.FabricColor;
+import utilities.FabricsSingleton;
+import utilities.recycle_view.ScaleInAnimatorAdapter;
 
 public class SofaCreatorActivity extends AppCompatActivity {
     CustomViewPager bodyPager;
@@ -88,7 +89,8 @@ public class SofaCreatorActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        fabrics = (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
+        fabrics = FabricsSingleton.instance.getIndoorFabrics();
+        //fabrics = (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
 
         toRight = new TranslateAnimation(
                 Animation.RELATIVE_TO_PARENT, 0.0f,
@@ -171,10 +173,6 @@ public class SofaCreatorActivity extends AppCompatActivity {
         final ScaleInAnimatorAdapter bodyAnimatorAdapter = new ScaleInAnimatorAdapter(bodyColorsAdapter, bodyColorsRecycler);
         bodyColorsRecycler.setAdapter(bodyAnimatorAdapter);
         bodyFabricsRecycler.setAdapter(bodyFabricsRecyclerAdapter);
-
-
-
-
 
         pillowFabricsRecycler.setLayoutManager(layoutManager3);
         pillowFabricsRecycler.setItemAnimator(new DefaultItemAnimator());

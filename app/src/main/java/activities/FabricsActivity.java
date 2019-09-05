@@ -19,12 +19,16 @@ import custom_listeners.ClickListener;
 import custom_listeners.RecyclerTouchListener;
 import custom_views.PreCachingLayoutManager;
 import objects.Fabric;
+import utilities.FabricsSingleton;
+
+import static creativedays.com.dilzas.R.string.outdoor;
 
 public class FabricsActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     ArrayList<Fabric> fabrics;
     ParallaxRecyclerView fabricsList;
     ImageView back;
+    String fabricsName;
 
 
     @Override
@@ -33,7 +37,21 @@ public class FabricsActivity extends AppCompatActivity implements AdapterView.On
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_fabrics);
 
-        fabrics= (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
+        fabrics = FabricsSingleton.instance.getIndoorFabrics();
+        fabricsName = (String) getIntent().getExtras().get("fabrics");
+
+        if(fabricsName.equals(getString(R.string.indoor)))
+        {
+            fabrics = FabricsSingleton.instance.getIndoorFabrics();
+        }
+        else if(fabricsName.equals(getString(outdoor)))
+        {
+            fabrics = FabricsSingleton.instance.getOutdoorFabrics();
+        }
+        else if(fabricsName.equals(getString(R.string.curtains_lower)))
+        {
+            fabrics = FabricsSingleton.instance.getCurtainFabrics();
+        }
 
         fabricsList=(ParallaxRecyclerView)findViewById(R.id.fabrics_listview);
         back=(ImageView)findViewById(R.id.back);

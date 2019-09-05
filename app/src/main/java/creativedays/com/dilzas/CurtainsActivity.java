@@ -30,9 +30,10 @@ import adapters.ColorsRecyclerAdapter;
 import adapters.FabricsRecyclerAdapter;
 import custom_listeners.ClickListener;
 import custom_listeners.RecyclerTouchListener;
-import it.gmariotti.recyclerview.adapter.ScaleInAnimatorAdapter;
 import objects.Fabric;
 import objects.FabricColor;
+import utilities.FabricsSingleton;
+import utilities.recycle_view.ScaleInAnimatorAdapter;
 
 public class CurtainsActivity extends AppCompatActivity {
 
@@ -60,7 +61,8 @@ public class CurtainsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_curtains);
-        fabrics = (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
+        fabrics = FabricsSingleton.instance.getCurtainFabrics();
+        //fabrics = (ArrayList<Fabric>) getIntent().getExtras().get("fabrics");
         fadeOut = new AlphaAnimation(1, 0);
         fadeOut.setDuration(700);
 

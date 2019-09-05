@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Thema.iml" filepath="$PROJECT_DIR$/Thema.iml" />
+      <module fileurl="file://E:\AndroidProjects\Thema-Android-Client\Thema.iml" filepath="E:\AndroidProjects\Thema-Android-Client\Thema.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thema-Android-Client.iml" filepath="$PROJECT_DIR$/Thema-Android-Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
